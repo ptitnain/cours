@@ -1,0 +1,165 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8">
+<title>Résumé chapitre 2 (4 pages)</title><style>
+body{font-family:'Times New Roman',serif;font-size:17px;line-height:1.5;max-width:820px;margin:30px auto;padding:0 20px;color:#111;background:#fff}
+h2{text-align:center;font-size:18px;margin:28px 0 10px;letter-spacing:1px} h3{font-size:17px;margin:18px 0 6px;text-decoration:underline}
+p{margin:8px 0} ul,ol{margin:4px 0 8px;padding-left:26px} li{margin:3px 0}
+table{border-collapse:collapse;margin:8px 0} th,td{border:1px solid #555;padding:4px 10px;text-align:left}
+th{background:#eee} code{font-family:Consolas,monospace;font-size:15px;background:#f2f2f2;padding:0 3px}
+hr{border:none;border-top:2px dashed #999;margin:22px 0}
+</style></head><body>
+<p><b>LE JEUNE Louis — UID : ____________</b></p>
+<p>Réseaux Informatiques 1 (INF3050) — Chapitre 2 : Modèles des réseaux, couche physique, couche liaison de données</p>
+<p>Séance du 07/10/2026 — M. Y. FAKIH</p>
+<hr>
+<h2>FEUILLE 1 — RECTO</h2>
+<h3>Partie 1 — Modèles OSI et TCP/IP</h3>
+<p><b>1) Encapsulation</b> (analogie de la lettre)</p>
+<p>Comme deux personnes doivent parler la même langue, deux machines doivent suivre les mêmes <b>protocoles</b> (règles, normes) : format et ordre des messages, actions à l'envoi et à la réception.</p>
+<p>Encapsuler = placer un format de message dans un autre, comme une lettre dans une enveloppe. Il faut <b>4 adresses</b> pour envoyer un message :</p>
+<ul>
+<li>dans la lettre : « Bonjour Florian » = <b>@IP destination</b>, la signature « Youssef » = <b>@IP source</b> → adresses <b>logiques</b>, dans le <b>paquet</b> ;</li>
+<li>sur l'enveloppe : adresse du destinataire = <b>@MAC destination</b>, adresse de l'expéditeur = <b>@MAC source</b> → adresses <b>physiques</b>, dans la <b>trame</b>.</li>
+</ul>
+<p>La trame est l'enveloppe qui transporte le paquet. Si l'adresse ou le format est faux, le message n'est pas livré.</p>
+<p><b>2) Modes de livraison</b></p>
+<ul>
+<li><b>Unicast</b> (monodiffusion) : 1 source → 1 destinataire</li>
+<li><b>Multicast</b> (multidiffusion) : 1 source → un groupe (pas vu en détail)</li>
+<li><b>Broadcast</b> (diffusion) : 1 source → tout le monde</li>
+</ul>
+<p><b>3) Pourquoi un modèle en couches ?</b></p>
+<p>Prendre l'avion est un système complexe : on le découpe en couches (billet, bagages, passager, vol), chacune avec une fonction au départ et la fonction inverse à l'arrivée. Avantages :</p>
+<ul>
+<li>une modification reste <b>locale</b> à sa couche → maintenance plus simple ;</li>
+<li>le système devient <b>universel</b> → <b>interopérabilité</b> : des PC Dell, HP ou Asus communiquent entre eux.</li>
+</ul>
+<p>Une couche = un sous-problème ; plusieurs protocoles peuvent appartenir à la même couche s'ils le résolvent de façons différentes.</p>
+<p><b>4) Modèle OSI (théorique) et TCP/IP (pratique)</b> ★ <i>(dessiner le tableau)</i></p>
+<table><tr><th>N°</th><th>OSI</th><th>TCP/IP</th><th>PDU</th></tr>
+<tr><td>7</td><td>Application</td><td></td><td>Données</td></tr>
+<tr><td>6</td><td>Présentation</td><td>Application</td><td>Données</td></tr>
+<tr><td>5</td><td>Session</td><td></td><td>Données</td></tr>
+<tr><td>4</td><td>Transport</td><td>Transport</td><td>Segment</td></tr>
+<tr><td>3</td><td>Réseau</td><td>Réseau</td><td>Paquet</td></tr>
+<tr><td>2</td><td>Liaison de données</td><td>Liaison de données</td><td>Trame</td></tr>
+<tr><td>1</td><td>Physique</td><td>Physique</td><td>Bits</td></tr>
+</table>
+<ul>
+<li>L'ancien TCP/IP a 4 couches (application, transport, internet, accès réseau = physique + liaison regroupées). Celui à 5 couches est le même, il sépare juste ces deux couches. <b>On utilise celui à 5 couches.</b></li>
+<li>Les <b>numéros de couche</b> n'existent que dans l'OSI : « couche 3 » = forcément OSI.</li>
+<li><b>PDU</b> (unité de protocole de données) = nom du message à chaque couche ★ question d'exam.</li>
+</ul>
+<p><b>5) Encapsulation complète (communication web)</b></p>
+<p>Données HTTP → <b>segment TCP</b> (+ ports) → <b>paquet IP</b> (+ @IP) → <b>trame Ethernet</b> (+ @MAC en en-tête, CRC en queue) → <b>bits</b>.</p>
+<ul>
+<li>Envoi : de <b>haut en bas</b> (on ajoute un en-tête à chaque couche).</li>
+<li>Réception : de <b>bas en haut</b> (on retire les en-têtes = désencapsulation).</li>
+</ul>
+<hr>
+<h2>FEUILLE 1 — VERSO</h2>
+<p><b>6) Rôle de chaque couche</b></p>
+<ul>
+<li><b>Physique (1)</b> : transporte des 0 et des 1 d'un point A à un point B, sans comprendre leur contenu (comme un chauffeur de bus qui ne sait pas où on descend).</li>
+<li><b>Liaison de données (2)</b> : transmission des <b>trames d'un saut au saut suivant sur le lien local</b> (<i>hop-by-hop</i>) grâce aux <b>@MAC</b>. Pour nous, un saut = un routeur (un switch n'est pas un saut).</li>
+<li><b>Réseau (3)</b> : transmission des <b>paquets de bout en bout</b> (<i>end-to-end</i> : de la source originale à la destination finale) grâce aux <b>@IP</b>, + le <b>routage</b>.</li>
+<li><b>Transport (4)</b> : identifie les <b>flux / services</b> grâce aux <b>numéros de port</b>. Ex : YouTube et Netflix ouverts en même temps → même IP, même MAC, mais ports différents. <b>UDP</b> = rapidité (jeux, live) / <b>TCP</b> = fiabilité (mails, données à ne pas perdre).</li>
+<li><b>Session (5)</b> : identifie l'<b>utilisateur</b> indépendamment des couches inférieures (IP, MAC, port). Ex : on reste connecté à Instagram en changeant de réseau.</li>
+<li><b>Présentation (6)</b> : formatage (ASCII, UTF-8…), compression, chiffrement.</li>
+<li><b>Application (7)</b> : interface entre l'utilisateur et le réseau (sans l'appli WhatsApp, pas de message WhatsApp).</li>
+</ul>
+<p>→ En pratique, les applications gèrent elles-mêmes (ou pas) la session et la présentation : c'est pour ça que TCP/IP regroupe les couches 5, 6 et 7 en une seule couche application.</p>
+<p>→ <b>L'IP dit où aller, la MAC dit comment y aller physiquement</b> : les deux sont complémentaires.</p>
+<p><b>7) Exemple : combien de trames ?</b> ★ exam <i>(recopier le schéma)</i></p>
+<p>PC-A (192.168.1.10, MAC AA) → R1 → R2 → R3 → PC-B (172.16.1.20, MAC 22).</p>
+<p>3 routeurs → 4 réseaux → <b>4 trames</b>.</p>
+<table><tr><th>Trame</th><th>MAC dest</th><th>MAC source</th><th>Paquet IP</th></tr>
+<tr><td>1 : PC-A → R1</td><td>BB-BB</td><td>AA-AA</td><td>192.168.1.10 → 172.16.1.20</td></tr>
+<tr><td>2 : R1 → R2</td><td>DD-DD</td><td>CC-CC</td><td>identique</td></tr>
+<tr><td>3 : R2 → R3</td><td>FF-FF</td><td>EE-EE</td><td>identique</td></tr>
+<tr><td>4 : R3 → PC-B</td><td>22-22</td><td>11-11</td><td>identique</td></tr>
+</table>
+<ul>
+<li>Les <b>@MAC changent à chaque routeur</b>, les <b>@IP ne changent jamais</b>.</li>
+<li>Chaque <b>interface</b> d'un routeur a sa propre @MAC.</li>
+<li>Le routeur vérifie que la MAC destination est la sienne, désencapsule, lit l'IP destination, consulte sa <b>table de routage</b> puis réencapsule dans une nouvelle trame (route inconnue → paquet abandonné).</li>
+</ul>
+<p><b>Équipements par couche</b> : hub = couche 1 / switch = couche 2 (lit seulement les MAC → <b>commutation intra-réseau</b>) / routeur = couche 3 (lit les MAC et les IP → <b>routage inter-réseau</b>).</p>
+<hr>
+<h2>FEUILLE 2 — RECTO</h2>
+<h3>Partie 2 — La couche physique</h3>
+<p><b>8) Rôle</b> : il faut au minimum une <b>carte réseau (NIC)</b>. La couche physique transforme les bits en signaux (électriques, lumineux ou ondes radio), les envoie sur le support, puis reconvertit les signaux reçus en bits.</p>
+<p><b>9) Bande passante, débit, latence</b> ★ <i>(analogie de l'autoroute)</i></p>
+<ul>
+<li><b>Bande passante</b> : capacité <b>maximale théorique</b> (autoroute à 100 ou 1000 voies). Ce n'est pas une vitesse : les bits voyagent à la même vitesse (≈ 0,64 × c) en 100 Mbit/s comme en 1 Gbit/s.</li>
+<li><b>Débit</b> (<i>throughput</i>) : ce qui passe réellement → toujours &lt; bande passante.</li>
+<li><b>Débit applicatif</b> (<i>goodput</i>) : débit − signalisation (en-têtes, accusés, retransmissions) = les voitures de police qui prennent de la place sans transporter de vraies données → toujours &lt; débit.</li>
+<li><b>Latence</b> : temps pour que les données aillent de A à B.</li>
+<li>Le débit est limité par le <b>lien le plus lent</b> du chemin (goulot d'étranglement).</li>
+</ul>
+<p><b>10) Câbles en cuivre</b></p>
+<ul>
+<li><b>Coaxial</b> : ancien (Internet + TV), sert encore pour les antennes et le satellite.</li>
+<li><b>Paire torsadée</b> : 8 fils = 4 paires, connecteur <b>RJ-45</b>, pas chère mais limitée à 100 m. Deux perturbations :</li>
+<li><b>diaphonie</b> (<i>crosstalk</i>) : un fil « entend » son voisin à cause du champ magnétique induit → la <b>torsade</b> annule en partie ces champs ;</li>
+<li><b>interférences EMI/RFI</b> : ex. box posée sur un micro-ondes (tous deux à 2,4 GHz).</li>
+<li><b>UTP</b> = non blindé (utilisé en TP) / <b>STP</b> = blindé, plus cher, mieux protégé.</li>
+</ul>
+<p><b>11) Câble droit, croisé ou rollover</b> ★ TP</p>
+<ul>
+<li><b>Droit</b> : équipements différents → PC–switch, switch–routeur.</li>
+<li><b>Croisé</b> : équipements identiques → switch–switch, PC–PC, routeur–routeur, <b>+ PC–routeur</b> (exception).</li>
+<li><b>Rollover</b> (Cisco) : PC → port console d'un switch ou d'un routeur, pour le configurer.</li>
+</ul>
+<p>Les routeurs Cisco 4321 du TP n'ont pas l'<b>auto-MDIX</b> (qui adapte le câble tout seul) → il faut choisir le bon câble.</p>
+<p><b>12) Fibre optique</b> : impulsions lumineuses, totalement insensible aux EMI/RFI.</p>
+<ul>
+<li><b>Monomode (SMF)</b> : un seul faisceau, <b>laser</b>, plus cher et plus performant.</li>
+<li><b>Multimode (MMF)</b> : plusieurs faisceaux, <b>LED</b>, dispersion → moins performant mais moins cher.</li>
+<li>UTP : jusqu'à 10 Gbit/s sur 100 m, peu cher / fibre : jusqu'à 100 Gbit/s sur des km, plus chère et délicate à installer.</li>
+</ul>
+<p><b>13) Sans fil</b> : support <b>partagé</b> → interférences, et n'importe qui peut capturer les paquets (il faut chiffrer).</p>
+<h3>Partie 3 — La couche liaison de données</h3>
+<p><b>14) Fonctions</b> (en plus du transport des trames saut par saut)</p>
+<ul>
+<li><b>Contrôle d'erreur</b> : le récepteur recalcule le <b>CRC</b> et le compare à celui reçu en fin de trame → différent = trame rejetée et retransmise.</li>
+<li><b>Contrôle de flux</b> : adapter son débit à la capacité de la destination (PC à 10 Gbit/s → serveur à 10 Mbit/s = saturation) et à la <b>congestion</b> du réseau.</li>
+</ul>
+<hr>
+<h2>FEUILLE 2 — VERSO</h2>
+<p><b>15) Trame Ethernet 802.3</b> ★ exam (Wireshark)</p>
+<p>| Préambule + SFD (8 o) | MAC dest (6 o) | MAC source (6 o) | Type (2 o) | Données (46 à 1500 o) | FCS / CRC (4 o) |</p>
+<ul>
+<li>Préambule + SFD = synchronisation, <b>invisibles dans Wireshark</b>.</li>
+<li>Dans Wireshark : <b>6 premiers octets = MAC destination</b> (toujours en premier), 6 suivants = MAC source, puis le type (<b>0x0800 = IPv4</b>).</li>
+<li><b>MTU = 1500 octets</b> de données max (3010 o → 3 trames). Moins de 46 o → <b>padding</b> (on complète avec des 0).</li>
+<li>IEEE 802 : 802.3 = Ethernet, 802.11 = Wi-Fi, 802.15 = Bluetooth.</li>
+</ul>
+<p><b>16) Hub et @MAC</b></p>
+<p>Le hub renvoie chaque trame à tous les PC (vu sur Packet Tracer) → un PC non concerné reçoit les données = <b>atteinte à la confidentialité</b>. D'où les @MAC : on ne traite une trame que si elle nous est adressée.</p>
+<ul>
+<li><b>@MAC = 48 bits = 6 octets = 12 chiffres hexa</b>, gravée dans la ROM de la carte.</li>
+<li>3 premiers octets = <b>OUI</b> (donné par l'IEEE au fabricant) + 3 derniers uniques → unique au monde.</li>
+<li>Unique <b>par interface</b>, pas par appareil (Ethernet, Wi-Fi, Bluetooth ont chacun la leur). Voir les siennes : <code>ipconfig /all</code>.</li>
+<li>Notations : <code>00-60-70-09-B4-95</code> (Windows), <code>00:60:70:09:B4:95</code> (Linux), <code>0060.7009.B495</code> (Cisco).</li>
+</ul>
+<p><b>17) Envoi d'une trame</b> : MAC source = celle de la carte qui envoie. MAC destination :</p>
+<ul>
+<li>broadcast → <code>FF-FF-FF-FF-FF-FF</code> (et <code>00-00-00-00-00-00</code> = MAC inconnue, voir ARP) ;</li>
+<li>multicast → commence par <code>01-00-5E</code> ;</li>
+<li>unicast → MAC du destinataire s'il est sur <b>le même réseau</b>, sinon MAC de la <b>passerelle par défaut</b>.</li>
+</ul>
+<p><b>18) Réception d'une trame</b> ★ : le PC lit d'abord la <b>MAC destination</b> → broadcast : accepte / multicast : seulement s'il est membre du groupe / unicast : MAC dest = la sienne → accepte, sinon → rejette.</p>
+<h3>Partie 4 — Fonctionnement d'un switch</h3>
+<p>Son « cerveau » = la <b>table d'adresses MAC</b> : <b>@MAC ↔ n° de port</b>, <b>vide à l'allumage</b>. Deux phases :</p>
+<ol>
+<li><b>Apprentissage avec la MAC source</b> : inconnue → ajoutée avec le port d'arrivée ; déjà connue → minuterie remise à zéro.</li>
+<li><b>Transfert avec la MAC destination</b> : inconnue ou broadcast → envoi sur <b>tous les ports sauf celui d'arrivée</b> / connue → envoi <b>uniquement sur son port</b>.</li>
+</ol>
+<p>Le switch n'apprend un PC que si une trame de ce PC passe par lui.</p>
+<p><b>Exercice</b> : PC-A (S1 Fa0/1) envoie à PC-B (S1 Fa0/3), puis PC-B répond. S1 Fa0/4 ↔ S2 Fa0/1.</p>
+<ul>
+<li>A → B : S1 apprend A sur Fa0/1 et inonde ; S2 apprend A sur Fa0/1 et inonde.</li>
+<li>B → A : S1 apprend B sur Fa0/3 et connaît A → envoie seulement sur Fa0/1. S2 ne voit rien passer.</li>
+<li><b>Résultat</b> : S1 = <code>0060.7009.B495 → Fa0/1</code>, <code>00D0.9772.82E3 → Fa0/3</code> / S2 = <code>0060.7009.B495 → Fa0/1</code>.</li>
+</ul>
+</body></html>

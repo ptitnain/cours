@@ -1,0 +1,12 @@
+# fichiers locaux de graphify (chemins propres à ce PC)
+graphify-out/.graphify_python
+graphify-out/.graphify_root
+graphify-out/cache/
+desktop.ini
+Thumbs.db
+# Données personnelles d'autres étudiants (listes UID / répartitions de groupes)
+réseau/supports moodle/Généralités/UID - 3A - FISA.pdf
+*Répartition*
+# Livres et datasheets sous droits d'auteur (gardés en local seulement)
+réseau/supports moodle/References/
+architecture microprocesseur/Datasheets/

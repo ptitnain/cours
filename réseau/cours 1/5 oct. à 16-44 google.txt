@@ -1,0 +1,211 @@
+Après on a une dans les années 900 la transmission juste du voix en réseau téléphonique. Ce qui a un peu évolué de l'aspect réseau. Vers les années 60 on a eu la première cas d'usage qui est? Dans les États-Unis, plusieurs universités, ils étaient interconnectées entre pour partager des données ou des infos de recherche.
+
+Vers les années 72 on a eu l'Internet du coup ce qu'on a vu dans les années 60, il a devenu public. Il faut accessible pour pour les gens. Civile. Ce qu'on appelle maintenant l'Internet c'est l'Internet public. C'est le réseau public. Et avoir les années 80 on a un peu plus évolué l'aspect du.
+
+Du réseau en passant en non filaire. Pour la partie. Pour les différentes générations de communication du Télécom mobile. Ce qu'on a sur notre mobile là.
+
+Les différentes composants réseau. On a deux grandes parties. Il partira dehors et une partie sauveteur. Le sauveteur c'est les services qu'on utilise WhatsApp les mails tout ça. Ça peut abstrait, il ne prend pas des. Les moyens de hardware le hardware c'est des éléments physiques qui servent à interconnecter ou à faire l'infrastructure pour qu'on puisse utiliser ce sauveteur là.
+
+En mode en mode réseau Internet. Du coup dans la partie hardware ça c'est une partie importante parce que la noter on a d'autres types de dispositifs de composants le terminal et les intermédiaires. Le terminant c'est les extrémités du de notre réseau du coup notre PC les serveurs. Les imprimantes entre téléphone mobile.
+
+Et le dispositifs intermédiaire c'est les routeurs, les switch, le house qui sert à interconnecter c'est deux dispositifs terminals qui servent qui essaient de se communiquer entre eux. Pour moi. Je suis en train de. Parler avec un collègue. Je sais lui envoyer un message ou un fichier. Du coup ce fichier là doit avoir l'infra qui peut le supporter et la cheminée vers la bonne destination, ce qui est mon collègue.
+
+Tout ça c'est un environnement qui complète dans l'autre. Euh le parti aussi hardware ce qui est le canon ou les médias qu'on utilise pour transmettre ces données. On a deux types. Petite guider et mon guidé. Le manque idée, c'est le wifi. L'autoroute tout ce qui est ventilaire le guider sur ce qui est filaire c'est le coaxial.
+
+C'est un peu vieux ça on le voit plus. Que les pertes torsadées ce sont les câbles Ethernet. C'est comme celui-là. Le fibre optique. Ce qui est un peu plus rapide que le père torsadé, il couvre beaucoup plus de distance. Mais il est beaucoup plus cher. Et beaucoup plus sensible au niveau du.
+
+L'installation? Le père torsader par contre il est moins. Au moins coûteux mais il a des avantages des désavantages. Aussi ceux qui sont il est vulnérable sont électromagnétiques. Il est affecté par le champ électromagnétique. Il est il a une limitation distance de son maître? Et après? Ensuite la signal électrique dedans elle est très atténuée du coup elle arrive pas elle est plus utilisable.
+
+On va voir comment on fixe ça. Le nom filaire ce qui lui fit et le radio. Ce qui est des ondes radio ou électromagnétiques qui se propagent dans l'air. C'est. Son avantage c'est plutôt que c'est flexible. On n'a pas besoin d'installer. C'est beaucoup plus facile à installer que des filières mais C'est très avantage.
+
+Sans que il doit avoir un point de vue direct entre les deux antennes. Sinon la service sera affectée. Du coup si on a un bâtiment deux antennes wifi ou téléphone mobile. Ça respecte vraiment les ondes électromagnétiques qui se propagent dans l'air. Parce qu'il y a des questions juste là.
+
+Là en commençant par les composants réseau. Qui sont sous le catégorie dispositif terminal. Ce sont des dispositifs qui se trouvent à l'extrémité du réseau comme j'ai dit. C'est la source ou la destination finale? D'après ça du message ou d'un flux réseau? Et chez eux il arrive que la donner applicatif il faut la donner du service qui est partagé entre émetteur et récepteur que ce soit mail par exemple ou messagerie.
+
+Tout ça? On voit les exemples là baisser la smartphone. Vous avez des exemples de communication? Vous avez le rôle de chaque dispositif? Le serveur aussi est considéré comme dispositif un device ou explosif terminal car celui qui fait la réponse et parfois il joue le rôle de clients en répondant.
+
+Au client? Il y a aussi une partie. Les réseaux d'objets connectés. Par exemple lipiphone c'est un exemple. Les capteurs de température s'ils sont installés chez vous à domicile? Autre que ça t'inscrit? Les caméras. Tout ça ça rentre dans la partie objet connecté. Là, c'est plutôt les composants qui sert à interconnecter ou à mettre en oeuvre une infrastructure capable de connecter les dispositifs terminaux pour qu'ils puissent communiquer entre eux.
+
+Du coup les dispositifs intermédiaires par exemple routeur switch, hop réputée. Tout ça on va voir un peu plus en détail les différentes composantes intermédiaires. C'est des équipements qui sert à assurer la transmission le routage. La commutation par exemple si c'est un switch du flux? Entre Center et receiver. Il y a quelques composants aussi qui sert à gérer le flux.
+
+Par exemple comme le firewall, il peut bloquer de type. Euh le trafic et il peut laisser passer d'autres types. C'est plutôt un routeur qui a beaucoup plus du sécurité mise en place. Du coup, le but des dispositifs intermédiaires c'est de garantir la circulation des données dans le réseau et d'assurer la réception des données depuis.
+
+La destination la vice-versa. Je vous laisse un peu noté ou je passe un peu vite ou ça va comme ça? Ça c'est un peu la les besoins d'évolution du de ses composants intermédiaires. Comment on a commencé au début et jusqu'à quoi qu'on est arrivé maintenant? On a toujours un quotidien?
+
+Avant les connexions ils étaient pas très. Euh un truc courant comme on a parlé dans la partie historique, on a commencé par le télégraphe après la transmission vocale. Après on a une cas d'usage dans les États-Unis ont interconnecté, juste deux ou trois universités pour partager des infos de ressources.
+
+Du coup si vous avez un cas d'usage où vous avez que deux. Un composant terminant à interconnecté, vous pouvez connecter soit via. Mais bon on les connaît normalement via les médias qu'on a discuté là tout à l'heure ici guider ou non guider. Ça dépend sur les types de. De redémarrer.
+
+Ça suffit pour pour deux ou trois par exemple composants Mais si on si le réseau il s'élargit la mise à l'échelle elle est pas très bonne pour cette méthode. On aura besoin de interconnecter par exemple d'ipc entre. Et on aura un problème déjà de cours de connexion entre un PC alors chaque PC il a besoin d'un carte réseau que ce soit plus là ou non filaire pour qu'il aille les 10 connexions en même temps.
+
+Et ça sera très complexe à mettre en place. Du coup ce qui a sorti comme composant intermédiaire. Vous avez vu c'était le répéteur. Le répéteur est le réseau. Il résout un problème de distance entre entre deux composants. Du coup comme j'ai dit dans par exemple? Le père torsadée le Ethernet, il court jusqu'à 190 mètres de distance entre deux composants.
+
+Et il y a une atténuation de signal électrique au bout du temps ou de la distance. Pas vraiment du groupe. Quand on a une distance très grande importante, on aura un problème de perte de données. Du coup le but de recruteur c'était? De recopier cette signal. Peut-être vers le milieu du chemin pour qu'il assure une reste une bonne réception d'une donnée d'une bonne qualité.
+
+Mais. Il y avait toujours le problème de interconnecter, plusieurs PC ensemble de façon efficace. C'est pour ça on a eu le hop ce qui fait le même que le recruteur. Il copie la signal mais avec. Plusieurs ports. C'est un genre de multiprise plutôt d'un hope comme m'excuser électrique. Cette signal mais pour plusieurs composantes terminaux comme plusieurs PC par exemple dans votre cas d'usage.
+
+Sans problème sans désavantage c'était plutôt que il copie en tout cas. Il partage sur tout le réseau. Il ne fait pas le triage de source destination. Du coup comme ça il aura un overflow sur réseau, la bande passante elle diminue beaucoup. Il y aura des congestions de réseau quand on part de performance.
+
+Du coup pour améliorer un peu cet aspect là, si on a deux réseaux chacun le réseau là vers le réseau jaune, chacun a son hope propre arabe. Pour les segmenter ou les diviser, on utilise ce qu'on appelle un bridge. Ce qui peut aussi paraît en deux le bridge il a.
+
+Le trafic retransmission limitant la transmission aux deux segments de réseau connecté. Du coup il fait une séparation en? Il est pas comme le Havre mais il est limité en deux réseaux juste. C'est pas aussi. Bon pour une mise à l'échelle. Pour résoudre le problème, on a encore eu une innovation de switch, ce qui est un hybride de hard plus Maurice.
+
+Du coup le switch c'est quoi son valeur ajoutée? C'est que?
+
+Il peut faire le triage. Du coup il se passe sur des adresses MAC? Ce qui sont les adresses des cartes réseau de chaque PC ou de chaque composant terminal terminal. Pour assurer mon partage d'informations et ne pas Noël réseau par des infos qui sont pas nécessaires du coup un PCA.
+
+Pour finaliste qui veut partager l'information à Bob, le pcv et le PC DCE, ils ont rien à voir avec cette information. Ils vont juste être Noé par cette information si on avait le hop, donc cas de switch, on aura juste. Transmission de cette message de Alice vers banque directement.
+
+En quelques cas on va les voir dans les autres chapitres mais les PC eux-mêmes qui reçoit des messages qui sont pas concernés avec ils vont la droper. Du coup ça reste une bonne. L'autre solution dans le problème qui reste qui est pas résolu c'est que si je suis chez moi.
+
+Et je veux me communiquer ou connecter à mon pc dans l'entreprise par exemple. J'arrive pas avec une switch car le switch il a raison pas au niveau des adresses IP et il raisonne au niveau des adresses MAC. Du coup j'ai besoin d'un routeur. Ce qu'on appelle un routeur le routeur il sert à interconnecter deux raisons différents.
+
+Du coup? Leur hauteur normalement vous retrouvez dans plusieurs places chez vous et un soir, ce qui est le box internet. C'est ça votre routeur à domicile. C'est qui sert à vous connecter à une autre un autre réseau situé dans votre cas le réseau public, ce qui est l'Internet pour accéder au réseau public, parfois le retard.
+
+Il est utilisé en interne aussi. Pour interconnecter plusieurs branches par exemple d'une entreprise. J'ai une entreprise par exemple. Qui a plusieurs équipes en équipe sails en équipe d'oeuvre en équipe support informatique et pour chaque équipe, je mets. Un routeur pour qu'il puisse. Se communiquer si besoin avec d'autres équipes.
+
+Bien sûr, je mets des règles dépendants sur mes sur mes cadres. Est-ce qu'il y a des questions sur les aspects composants?
+
+Le principe de segments de terre la bridge on prend l'exemple. Je vais peut-être faire un petit schéma.
+
+On prend l'exemple. Deux PC alors quatre PC par exemple.
+
+Là on a un rap entre. Pareil! Si je veux vraiment segmenter. Les quatre PC car avant si on avait un rap. En milieu? Il va un PC a. Du coup le a il va pas il va juste parler avec le pcd. Et là si on n'avait pas? Le bridge en milieu si on avait juste un rap.
+
+Pareil là. Vais essayer d'en recevoir la message de aberde OK? Mais si on avait un bridge?
+
+Le vrai du fait la segmentation entre ces deux réseaux. Donc aussi à la nécessité que a parlé avec B. Il y aura le bridge qui va qui va partager. Si le a et parle avec des il va pas partager. Il va laisser sur ce parti du coup il essaie de.
+
+Moins être?
+
+Je veux passer sur la partie un peu. IP. Ce qu'on a parlé sur l'aspect hauteur, il raisonne en adresse IP. L'adresse IPS c'est votre identifiant sur le réseau. En numéro il représente représenté en 32 bits 01 mineur. Et c'est 32 ils sont coupés en 4 octets. Séparés par des points comme on voit là en décimal.
+
+S'appelle un octet du coup 32 sur 8? C'est 4. On a quatre octets différentes pour représenter votre identifiant sur les eaux situé l'adresse IP. Chaque grotte sur. Sur le réseau il doit avoir un adresse IP. Pour l'identifier pour identifier ces messages et m'identifier s'il est destinataires parfois du message.
+
+Par exemple là on prend un exemple client vers webserver. On voit que le client il a l'adresse 192 168 à 1 indice. Et il va? Recruter par exemple une page web depuis le serveur Web qui a cette adresse là un poinçon et on trouve que bon les adresses il veut.
+
+Ils sont presque les mêmes. Il y a juste la dernière octet qui est différente. C'est ce qui est identifie chaque race sur un réseau on va. Sur la partie 2 on va plus plutôt parler détail comment identifier? Un composant terminal s'il est vraiment sur le réseau en main, c'est un autre réseau et on aura une réponse.
+
+Par exemple la page web que le client il a demandé. Là on voit que les adresses IP source. Euh hyper destination, ils sont renversés du coup là plutôt le serveur rock il est devenu client du client. Que choléral? Ils sont renversés? Là c'était l'émetteur. Là c'était le récepteur et là c'est l'inverse.
+
+Celui-là c'est le récepteur. Maintenant le client il est le récepteur et le serveur web et l'épaisseur. La formation? Et à des questions?
+
+Schématisation du cas d'usage dont on parlait là tout à l'heure un dispositif terminal qui va communiquer avec un autre dispositif terminal. Sur sur un autre réseau. Là le premier dispositif il essaie d'envoyer un message avec la source. Un point de 10 et la destination 1.20 ce qui est le destinataire.
+
+Et on a le réseau Internet entre. Du cours dans le réseau Internet. On voit que c'est constitué de plusieurs auteurs. Une retard interne dispose du terme plusieurs dispositives intermédiaires ce que tu sais les hauteurs. On commence par la route le routard qui est plus proche de ce dispositif et celui-là.
+
+Il va acheminer la message vers la bonne destination. Du coup ça peut arriver que? Euh le message, il va sauter plusieurs hauteurs pour arriver vers une destination et c'est comme ça en fait. Cela fera de l'Internet allait faire. Elle est basée sur des routeurs étape qu'on était entre eux.
+
+Avec une marge, une plage des adresses IP publiques. Là on utilise les plages de base ipriée plus tard. On va parler aussi de ça dans votre chapitre. Vous avez des questions là?
+
+Là on a déjà.
+
+La communication sur un réseau aspect à travers. Du média que ce soit guidé au nom guidé et canal filaire en filaire. Les différentes? La possibilité qu'on a un émetteur sur qui partagent l'information avec un récepteur via c'est quoi l'économie possible? Les données ils seront codées en impulsion électrique avec des câbles métalliques en cuivre.
+
+On perd torsadée ce qui est le eternut. Le coaxial il existe plus? Soit en impulsion lumineuse en cas d'utilisation des câbles de fibre optique. Et les canal sans fil ce qui est le wifi ou le réseau mobile espace sur? Les modulations de paramètres de vente radio. D'amplitude fréquence la phase ou la polarisation?
+
+Tout ça sert à rien. Spécifier une canal? Unique. De communication entre un émetteur et un récepteur. Puis avec questions sur les canaux? Comme j'ai dit les antennes ils doivent être en light of size du coup ils doivent avoir. Une vue directe entre power. Communication. Là c'est un vidéo visite guidée virtuelle d'une.
+
+D'une petite boîte, je peux vous montrer peut-être je le laisse pour après. Sinon vous pouvez le voir aussi sur les chevaux. Je vous laisse pour après.
+
+Donc? Là on a les catégories de réseau. On a deux possibilités de grandes catégories. Je sais que dans votre corps il y aura d'autres catégories mais c'est les deux catégories qui sont intéressantes pour nous. Le réseau local de l'âne et le one le white et rien network. C'est le maître étendu.
+
+Le combattre normalement l'Internet et on a tous nos réseaux dans le monde et sont constitués de ces deux types là. Le lynx et il court. C'est un réseau local qu'il couvre. Une espace géographique un peu petit du coup soit maison soit un campus une école. Petite entreprise. Il est généré par des individus au service informatique donc l'entreprise.
+
+Le one. C'est un réseau. Qui fournit accès à d'autres raisons? Et il est plutôt étalé sur une espace géographique. Beaucoup plus rentre que le lin. C'est plutôt au niveau continent au monde. Euh du coup le rendre les one et l'interconnectent de l'Inde? Entre. Ils font partie de l'Internet aussi.
+
+Du coup l'Internet c'est un format. Ça c'est plutôt géré par des ISP. Vous savez c'est quoi un respect? C'est comme orange Bouygues, elle se torche. C'est quoi? L'internaute
+
+Le stade parler des topologies pour chacun de chercher. On a aussi plusieurs topologies. Tu peux représenter? L'architecture de ou la distribution des composants terminaux et intermédiaires sur un réseau. Alors que je la sensibilité là. On voit que? Les topologies sont les différentes manières d'organiser physiquement ou même logiquement la connexion entre les équipements réseau.
+
+Bien sûr, chaque topologie elle a des avantages et des inconvénients. Selon le besoin et la taille, la taille de votre maison. Par exemple le bus c'est que et la respect du dispositifs qui. Qui sont connectés sur eux-mêmes câble principal le ligne de transmission du coup chaque. PC qui va intégrer le réseau.
+
+S'il est en formule, il doit se connecter sur ce ligne principale. On va voir les inconvénients frais. Droite l'étoile, c'est plutôt. Un réseau avec une point central. Tu vas organiser la communication ou la connexion entre plusieurs? Plusieurs composants. Terminale. Normalement, c'est un rabot à switch. Là non? C'est plutôt une loupe ou un ring.
+
+Qui fait relier plusieurs? Composants terminale. Le problème c'est un composant terminal l'atome la boucle elle est cassée du coup problème de connexion. Normalement pour le financement. Oui c'est vrai mais là on voit qu'il y a deux connexions par par des vice. Du coup pour chaque sens il y a une connexion?
+
+Là là vous avez. Oui la connexion directe, elle marche toujours mais si elle va faire un trajet non. On va voir après en détail. La tampon maillet. C'est de interconnecter plusieurs. Composants en filaire du coup chaque composant il doit être connecté à tous les autres composants. Ça c'est en terme de performance l'optimal mais elle est très coûteuse et très complexe à implémenter.
+
+Il y a d'autres questions sur les défauts pour moi. Je passe sur les avantages et les inconvénients. On voit que le bus. C'est facilité de l'installation et coupable carrière sur le câble principal mais écouteurs sur le câble principal elle fait arrêter le réseau. Les exemples c'est les petits réseaux temporaires et des anciens réseau.
+
+Il existe pas récemment. En étoile. Euh, il y a une facilité de gestion aux ajouts de nouveau à quel point il faut? Il suffit juste à se connecter au rabot à switch central. Une panne sur une connexion à la fête, pas les autres. Inconvénient c'est que c'est un single panto fait.
+
+Du coup il y a une point central si elle tombe tous les autres composants un peu plus communiquer entre eux. C'est plutôt dans le cas des réseaux domestiques et des petites entreprises.
+
+Le temps d'accès, il est constant pour chaque poste c'est ça? L'avantage fut donné les ordonné. Mais si on coupure sur un câble un équipement avec le réseau. Euh et une difficulté d'ajouter de d'équipement. Du coup ça ressemble un peu au bus mais il y a une difficulté d'ajout. Son avantage sur le bus c'est que le temps délai, il est plutôt constant pour tous les composants.
+
+Industriel plutôt qu'on utilise ce type de réseau le maillet. Il est très grand fiable et redondant. Du coup il est très résilient aux erreurs aux femmes aux attaques. Met son coup, il est élevé et c'est son installation. Elle est complexe. C'est plutôt pour les réseaux critiques militaires.
+
+Une synthèse aussi de différentes aspects de chaque topologie locaux, la fiabilité, la facilité de gestion et Performance plus extension.
+
+Parlons un peu de l'Internet, c'est quoi l'Internet?
+
+Les réseaux locales, ils sont connectés entre. On a dit le lac de son interconnectés entre via le one. C'est une connexion de plusieurs langues. Et après les one entre ils sont interconnectés pour former l'Internet ce qui est l'Internet public. Ce qui nous sert à accéder à des services publics.
+
+Pour communiquer à communiquer avec d'autres. Top partie du monde!
+
+Bon ça c'est une définition globale de l'Internet et l'ensemble mondial des réseaux interconnectés en gros. Le conseil, plusieurs raisons interconnectées entre eux avec des passerelles ou des passerelles par des pots pour accéder à ce type. À ce type de réseau, il y a juste une petite. Différenciation qu'il faut faire là le internet avec une petite I.
+
+Elle est utilisée pour décrire des multiples réseau interconne. Pardon interconnecté mais pas nécessairement sur réseau public sur le.
+
+Comment on accède à Internet au niveau particulier et entreprise? Toujours on a besoin d'un ISP. Celui qui est notre passerelle vers loin. Celui qui gère le loin dans tout cas en année. Dans notre cas il y a orange oui SFR free Elle est plus grave je pense, c'est très important.
+
+Les usages particuliers ils différencie des usages entreprises. Par exemple, les particuliers utilisent l'Internet jusqu'en maison par exemple pour télétravail. Un peu de streaming des Entertainment mais l'usage entreprise c'est plutôt pour assurer une connexion vers leurs services et l'exposer à Internet pour que les clients peuvent accéder. Des espaces de stockage par exemple comme le cloud?
+
+Ils ont besoin d'une bonne façon beaucoup plus élevée que celle des particuliers. Qu'on a deux aspects de connexion Internet? Là la partie la partie elle est finie. Si vous avez des questions n'hésitez pas. Si vous voulez que je reviens sur la partie d'une partie du programme aussi n'hésitez pas.
+
+Je pense qu'on est un peu tôt fini là on a jusqu'à.
+
+Et encore? 30 minutes. N'hésitez pas si vous voulez signaler quelque chose ou. Demander une question concernant un truc là ça reste vraiment. Plus global sur les différents composants comment ils sont interconnectés le rôle de son composant? En général, après dans les autres cours on va dans les anciens chapitres.
+
+On va rentrer dans plus de détails sur chaque composant sur quelle couche il quelque couche réseau il? Qu'il réagit et comment il réag?
+
+Du coup là c'est quoi exactement le? OK. Après je peux vous montrer aussi le vidéo en termes de sang je pense ça sera un peu compliqué. Il est pas fort le son du je peux résumer après. C'est normalement c'est ce qu'on a parlé mais un peu plus en visuel quoi.
+
+Bon, comme en même temps, je peux vous montrer ça. Est-ce qu'il y a d'autres questions avant que? Pendant une autre partie ce sera plutôt sur l'adressage IP et comment les configurer? Comment les calculer? Comment différencier une partie 2030 d'une partie émotionn? On va faire quelques exercices dans la forme.
+
+Je pense c'est rien pour vous confirme
+
+Quelques équipes vous allez voir les différents services qui sont installés.
+
+Les instructeur de mécaniciens utiles connectées en wifi afin de faciliter l'opération de certaines activités de leur adnistratives notamment. Mais que signifie donc cette notion de raison informatique? J'y crois pas mais aussi les couleurs des tablettes. Quels sont les événements qui le composent et à quoi servait-il donc lui? Pour cela.
+
+Afin de comprendre la manière dont on peut se structurer dans les eaux un peu empathiques.
+
+Bien de rendre ce positive et à savoir comment gagner de l'argent facilement. Il apporte la présence des gens qui viennent en tirer ça ce qui se voit très vite du côté de fécondité toujours du coup dans d'autres idées à comprendre financier la cause qui permet de refroidir. Et oui, ça change beaucoup ici vous pouvez l'habitude, donc l'appareil électrique qui va permettre d'installer pour le rapporteurs ou en ça peut paraître énorme parce que sinon la plupart du temps.
+
+Pas encore du monde et que c'est qu'on avait pris conscience transposable pour le moment parce que Distribué par une population professionnelle en Italie et elle s'affranchir les soldes. Peut-être un peu dans ton regard dessus et le problème c'est aussi un sourire en fait donc jusqu'à 10. Ça fait 4 heures que cette région-là permet de calculateur c'est la multiprise mais plusieurs éléments entrants.
+
+La preuve de nombreuses femmes sont reliées et aussi par consé.
+
+Pour fournir un des plus stratégie politique de faveurs de cette vidéo. D'accord nous nous avons eu aucun cas. N'oubliez pas à chaque fois avoir le long terme frapper la manière suivante les services sont prêts parce que franchement c'est ici par exemple. Tu vas enfin un peu émettre des informations nécessaires du genre donc ça c'est.
+
+Il a été ajouté sur un canal. J'écoute la baguette, la femme. Tu as été ajouté sur un canal teams pour le Perse. J'ai reçu un mail de Madame oui toute la partie combattre et se passer parce que parfois parce que moi je suis pas sur le canal je crois.
+
+En tout cas j'ai rien reçu le premier degré tu as c'est kasambou qui t'a envoyé un peu. Sur le site et bien des sucres ce service, il va falloir faire peut-être lui demander carrément le profit c'est pareil que cela encore. Si vous voulez autre partie gauche j'aurais pu suivre facilement donc ça c'est pas d'accord qui qui a été ouvert.
+
+Ça n'a absolument aucune idée sur la photo. Je vous emmène là et prendre connaissance des dépenses de 2 secondes carrière personnelle et aussi de la partager avec les autres machines pour les raisons la nuit techniquement n'importe quelle.
+
+Euh, on avait une histoire de l'Internet, c'est quoi l'intérêt? On a vu plutôt une grande partie sur les composants terminaux et intermédiaires. Il faut composant.
+
+On a plusieurs types. Là on va faire ensuite topologie qui va résumer un peu les différentes composantes dont on a parlé. On a un PC en filaire. Par exemple? On a notre par exemple PC ou téléphone? En radio.
+
+Dans son propre réseau, ils ont une entreprise. Ils sont interconnectés. Comment c'est quoi la meilleure façon de les atteindre connecter? On a dit.
+
+Mais bon on a ensuite.
+
+Avec l'autre? Un autre? À notre réseau.
+
+C'est portable.
+
+Disons un émetteur là? Voilà parler avec un récepteur. Possible cette partie qu'est-ce qu'on a besoin au milieu pour les interconnecter?
+
+Le nom de motricité Perse. Du coup? Qu'est-ce qu'il y a d'autre? On parle de quoi encore en global c'est ça? Dans les différentes composants réseaux. Le switch pour connecter au niveau local. Le routeur water connecté deux réseaux différents. Aussi le routeur, il a plus de nos connecter parfois vers l'alternat.
+
+En utilisant? Mettre en place. Est-ce qu'il y a d'autres trucs qu'on n'a pas encore coûterait? Voilà! En local qu'est-ce qu'on a? On a des serveurs parfois? De toute façon. Pour regarder les droits d'accès de chaque utilisateur. Des serveurs DHCP. Pour distribuer des adresses ouvertes automatiquement. Un serveur?
+
+Serveur mail. Ça on les met dans normalement une seule serveur. Au-delà de la senteur. Dépendances sur. De l'entreprise? Normalement c'est un périmètre sécurisé car c'est le point de stockage de tout donner des entreprises vous avez contacté. Jean-Philippe 2. En envoyant des vampire ballon. Il reste un peu de temps.
+
+Si vous avez des questions n'hésitez pas. Sinon vous pouvez prendre le poste étendu un peu, on reprend à 18h15.
+
+On revient à 18h moins. Prenez 15 minutes.

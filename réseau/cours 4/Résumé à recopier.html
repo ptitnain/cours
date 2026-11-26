@@ -1,0 +1,57 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Résumé chapitre 4</title><style>body{font-family:'Times New Roman',serif;font-size:17px;line-height:1.5;max-width:820px;margin:30px auto;padding:0 20px;color:#111;background:#fff}
+h2{text-align:center;font-size:18px;margin:28px 0 10px} h3{font-size:17px;margin:18px 0 6px;text-decoration:underline}
+p{margin:8px 0} ul,ol{margin:4px 0 8px;padding-left:26px} li{margin:3px 0}
+table{border-collapse:collapse;margin:8px 0} th,td{border:1px solid #555;padding:4px 10px;text-align:left} th{background:#eee}
+code{font-family:Consolas,monospace;font-size:15px;background:#f2f2f2;padding:0 3px}
+pre{font-family:Consolas,monospace;font-size:14px;background:#f6f6f6;border:1px solid #ccc;padding:6px 10px}
+img{max-width:100%;height:auto} .schema{text-align:center;margin:10px 0} hr{border:none;border-top:2px dashed #999;margin:22px 0}</style></head><body>
+<p><b>LE JEUNE Louis — UID : ____________</b></p>
+<p>Réseaux Informatiques 1 — Chapitre 4 : Communication Réseau Local &amp; Réseau Distant — 25/11/2026</p>
+<hr>
+<h3>Partie 1 — Construction Paquet &amp; Trame</h3>
+<p>Pour envoyer un message, il faut remplir <b>4 adresses</b> : deux dans l'en-tête du paquet et deux dans l'en-tête de la trame.</p>
+<p>Le <b>paquet est toujours le même</b>, en local comme en distant :</p>
+<ul>
+<li><b>IP source</b> : celle de l'envoyeur ;</li>
+<li><b>IP destination</b> : celle du PC final.</li>
+</ul>
+<p>Pour la <b>trame</b>, seule la <b>MAC destination change</b> :</p>
+<ul>
+<li>en <b>local</b>, on envoie directement au PC final, donc c'est <b>sa MAC</b> ;</li>
+<li>en <b>distant</b>, on envoie d'abord au routeur, donc c'est la <b>MAC de la passerelle</b>. Le routeur refait ensuite une trame pour la suite.</li>
+</ul>
+<p>La première fois qu'on veut communiquer, deux informations sont inconnues : l'<b>IP de destination</b>, trouvée grâce au <b>DNS</b>, et la <b>MAC de destination</b>, trouvée grâce à l'<b>ARP</b>.</p>
+<h3>Partie 2 — Le DNS</h3>
+<p>C'est plus simple de retenir un nom comme <i>google.com</i> qu'une suite de chiffres. Le <b>serveur DNS traduit donc le nom de domaine en adresse IP</b> et inversement. Le PC lui envoie une <b>requête DNS</b> et reçoit une <b>réponse</b> avec l'IP.</p>
+<h3>Partie 3 — ARP</h3>
+<p>L'<b>ARP</b> trouve la <b>MAC qui correspond à une IP</b>. Chaque PC a une <b>table ARP</b>, gardée en RAM, qui garde les correspondances IP/MAC déjà trouvées : elle est vidée au redémarrage. En local, on cherche la MAC du PC final, en distant, celle de la passerelle.</p>
+<p>Si l'IP n'est pas dans la table, le PC met son message en attente et envoie une <b>requête ARP</b> à tout le réseau local.</p>
+<p>Chaque machine la reçoit et compare l'IP cible à la sienne : si ce n'est pas elle, elle rejette. Seule la bonne machine répond avec une <b>réponse ARP</b> qui contient sa MAC, envoyée directement au demandeur. Le PC met alors sa table à jour et envoie son message.</p>
+<p>★ <b>Requête ARP = broadcast</b> (envoyée à tout le réseau local).</p>
+<p>★ <b>Réponse ARP = unicast</b> (envoyée directement au demandeur).</p>
+<p><b>ARP spoofing</b> : un attaquant envoie une fausse réponse ARP avec sa propre MAC à la place de celle d'une autre machine. Le PC enregistre la mauvaise MAC et lui envoie tous ses paquets. Certains switchs s'en protègent.</p>
+<h3>Partie 4 — ICMP</h3>
+<p>L'IP ne garantit pas que les données arrivent, donc l'<b>ICMP</b> sert à <b>signaler les problèmes</b> sur le réseau. Trois messages à retenir :</p>
+<ul>
+<li><b>Echo request / reply</b> (types 8 et 0) : utilisés par le <b>ping</b> pour tester si une machine répond ;</li>
+<li><b>Destination inaccessible</b> (type 3) : code 0 = réseau, 1 = hôte, 2 = protocole, 3 = port ;</li>
+<li><b>Délai dépassé</b> (type 11) : envoyé quand le <b>TTL tombe à 0</b>.</li>
+</ul>
+<p><b>Ping</b> : on teste dans l'ordre :</p>
+<ol>
+<li>son propre PC (127.0.0.1) ;</li>
+<li>la passerelle ;</li>
+<li>une machine sur un réseau distant.</li>
+</ol>
+<p>Le premier ping rate souvent car le PC doit d'abord trouver la MAC avec l'ARP. Si le ping ne marche pas, la machine peut quand même être joignable : beaucoup de routeurs et pare-feu bloquent l'ICMP.</p>
+<h3>Partie 5 — DHCP</h3>
+<p>Le <b>DHCP</b> donne <b>automatiquement</b> une configuration réseau aux PC : une <b>IP</b>, le <b>masque</b>, la <b>passerelle</b> et le <b>DNS</b>. Le serveur prend dans un <b>pool d'adresses</b> et les <b>loue</b> pour une durée limitée, le <b>bail</b>. Si le bail n'est pas renouvelé, l'adresse revient dans le pool.</p>
+<p>★ Les 4 messages, à retenir avec <b>DORA</b> :</p>
+<ol>
+<li><b>Discover</b> : le client cherche un serveur DHCP en broadcast ;</li>
+<li><b>Offer</b> : le serveur propose une IP ;</li>
+<li><b>Request</b> : le client accepte cette IP ;</li>
+<li><b>Ack</b> : le serveur confirme.</li>
+</ol>
+<p>Pour <b>renouveler</b> son bail, le PC n'a généralement besoin que de deux messages : <b>Request</b> puis <b>Ack</b>.</p>
+</body></html>

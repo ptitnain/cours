@@ -1,0 +1,920 @@
+{
+  "CONTEXTE.md": {
+    "mtime": 1795709434.3262153,
+    "seen": 1795710021.7103965,
+    "ast_hash": "bda392edfe8e1557696a27ad7177b81a",
+    "semantic_hash": "bda392edfe8e1557696a27ad7177b81a"
+  },
+  "PAIRSE projet RSE/CONTEXTE.md": {
+    "mtime": 1795709498.9574263,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e9d2b097bb21ceddea5ce6d2167f40fa",
+    "semantic_hash": "e9d2b097bb21ceddea5ce6d2167f40fa"
+  },
+  "PASS remise \u00e0 niveau/CONTEXTE.md": {
+    "mtime": 1795709499.0236197,
+    "seen": 1795710021.7103965,
+    "ast_hash": "b087721df9db16d86f0258bcb205ed62",
+    "semantic_hash": "b087721df9db16d86f0258bcb205ed62"
+  },
+  "anglais/CONTEXTE.md": {
+    "mtime": 1795709498.893873,
+    "seen": 1795710021.7103965,
+    "ast_hash": "99fa40fdc5fbbad3135faeac5cafe457",
+    "semantic_hash": "99fa40fdc5fbbad3135faeac5cafe457"
+  },
+  "architecture microprocesseur/CONTEXTE.md": {
+    "mtime": 1795709498.546909,
+    "seen": 1795710021.7103965,
+    "ast_hash": "142cd0d7ec0eed1d40aa6cb3dc9585ba",
+    "semantic_hash": "142cd0d7ec0eed1d40aa6cb3dc9585ba"
+  },
+  "bases de donn\u00e9es/CONTEXTE.md": {
+    "mtime": 1795709498.6295693,
+    "seen": 1795710021.7103965,
+    "ast_hash": "91b117085ad9436bed2754060778ffb4",
+    "semantic_hash": "91b117085ad9436bed2754060778ffb4"
+  },
+  "java POO/CONTEXTE.md": {
+    "mtime": 1795709498.7698452,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3af834b6c97e1c57e67fc1b07297f464",
+    "semantic_hash": "3af834b6c97e1c57e67fc1b07297f464"
+  },
+  "probabilit\u00e9s et statistiques/CONTEXTE.md": {
+    "mtime": 1795709498.7060728,
+    "seen": 1795710021.7103965,
+    "ast_hash": "48f78028423542a2449d486ca6da4465",
+    "semantic_hash": "48f78028423542a2449d486ca6da4465"
+  },
+  "r\u00e9seau/CONTEXTE.md": {
+    "mtime": 1795709498.37624,
+    "seen": 1795710021.7103965,
+    "ast_hash": "9ac6391525988fbfd618740245f11db9",
+    "semantic_hash": "9ac6391525988fbfd618740245f11db9"
+  },
+  "r\u00e9seau/cours 1/R\u00e9sum\u00e9 \u00e0 recopier.md": {
+    "mtime": 1791222122.4602666,
+    "seen": 1795710021.7103965,
+    "ast_hash": "9fca370705bcce93249b4eb7c3d45876",
+    "semantic_hash": "9fca370705bcce93249b4eb7c3d45876"
+  },
+  "r\u00e9seau/cours 2/R\u00e9sum\u00e9 complet (4 pages).md": {
+    "mtime": 1791398723.6623352,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d34042f12c52508afa7e3f8c8ad1b370",
+    "semantic_hash": "d34042f12c52508afa7e3f8c8ad1b370"
+  },
+  "r\u00e9seau/cours 2/R\u00e9sum\u00e9 \u00e0 recopier.md": {
+    "mtime": 1791400789.3714347,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a96ac5a96c26cbe738e481c1f86a90b5",
+    "semantic_hash": "a96ac5a96c26cbe738e481c1f86a90b5"
+  },
+  "r\u00e9seau/cours 3/R\u00e9sum\u00e9 \u00e0 recopier.md": {
+    "mtime": 1793641594.5422647,
+    "seen": 1795710021.7103965,
+    "ast_hash": "bd773e01af47a07387359439c29e0243",
+    "semantic_hash": "bd773e01af47a07387359439c29e0243"
+  },
+  "r\u00e9seau/cours 4/R\u00e9sum\u00e9 \u00e0 recopier.md": {
+    "mtime": 1795633022.7583728,
+    "seen": 1795710021.7103965,
+    "ast_hash": "5ede72aee1dd4fee2a0f7e6a27f78c14",
+    "semantic_hash": "5ede72aee1dd4fee2a0f7e6a27f78c14"
+  },
+  "syst\u00e8mes d'exploitation/CONTEXTE.md": {
+    "mtime": 1795709498.4819925,
+    "seen": 1795710021.7103965,
+    "ast_hash": "de17b95a17894999127ccce3faa0d8d3",
+    "semantic_hash": "de17b95a17894999127ccce3faa0d8d3"
+  },
+  "traitement du signal/CONTEXTE.md": {
+    "mtime": 1795709498.8319316,
+    "seen": 1795710021.7103965,
+    "ast_hash": "9056e6938434223af1c90434a6f31a98",
+    "semantic_hash": "9056e6938434223af1c90434a6f31a98"
+  },
+  "PAIRSE projet RSE/EVALUATION/Consigne Th\u00e9orie du changement et indicateurs dimpact.pdf": {
+    "mtime": 1795709340.1191952,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c7c7a9d2a78a4e4088c76e911739b886",
+    "semantic_hash": "c7c7a9d2a78a4e4088c76e911739b886"
+  },
+  "PAIRSE projet RSE/EVALUATION/Construire_son_user_story_map_-_Novembre_2026.pdf": {
+    "mtime": 1795709340.1171951,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c7c3d69cc9c38795d91da14f50fddda0",
+    "semantic_hash": "c7c3d69cc9c38795d91da14f50fddda0"
+  },
+  "PAIRSE projet RSE/Introduction au module PAIRSE/Referentiel des Competences du XXIe siecle_version print (2).pdf": {
+    "mtime": 1795709340.121195,
+    "seen": 1795710021.7103965,
+    "ast_hash": "cde241b2b0535beaf6898934a17bfef7",
+    "semantic_hash": "cde241b2b0535beaf6898934a17bfef7"
+  },
+  "PAIRSE projet RSE/S\u00e9ance 1 et 2 - Introduction au module PAIRSE/Introduction_au_PAIRSE_S\u00e9ance_1.pdf": {
+    "mtime": 1795709340.1262336,
+    "seen": 1795710021.7103965,
+    "ast_hash": "57f9406459ee7cd37eef4713d490fa50",
+    "semantic_hash": "57f9406459ee7cd37eef4713d490fa50"
+  },
+  "PAIRSE projet RSE/S\u00e9ance 3 et 4 - Organiser sa gestion de projet/S\u00e9ance 3 - Cadrer et Structurer son projet (phases et sprints).pdf": {
+    "mtime": 1795709340.1292193,
+    "seen": 1795710021.7103965,
+    "ast_hash": "25a1749a10715b390b7953abe10dc56e",
+    "semantic_hash": "25a1749a10715b390b7953abe10dc56e"
+  },
+  "PAIRSE projet RSE/S\u00e9ance 5 - L'agilit\u00e9 comme cadre de travail avec Tanguy GITON/Adopter l\u00e9tat desprit agile - cultiver linnovation et ladaptabilit\u00e9 - S\u00e9ance 2.pdf": {
+    "mtime": 1795709340.1314032,
+    "seen": 1795710021.7103965,
+    "ast_hash": "7c0d452082e742d5f6d613dd86c18b5c",
+    "semantic_hash": "7c0d452082e742d5f6d613dd86c18b5c"
+  },
+  "PAIRSE projet RSE/S\u00e9ance 5 - L'agilit\u00e9 comme cadre de travail avec Tanguy GITON/S\u00e9ance 4 - Introduction agile - v2.pdf": {
+    "mtime": 1795709340.1384084,
+    "seen": 1795710021.7103965,
+    "ast_hash": "15304d913b182129a8043a9f861e3fe5",
+    "semantic_hash": "15304d913b182129a8043a9f861e3fe5"
+  },
+  "PAIRSE projet RSE/S\u00e9ance 6 - Mesurer et \u00e9valuer son impact avec Marine GARAICOECHEA/Evaluer et mesurer son impact - Cabinet IMPROVE.pdf": {
+    "mtime": 1795709340.140408,
+    "seen": 1795710021.7103965,
+    "ast_hash": "0bc976a63a8be64ae0e455a0c3f5ffba",
+    "semantic_hash": "0bc976a63a8be64ae0e455a0c3f5ffba"
+  },
+  "PAIRSE projet RSE/S\u00e9ance 7 et 8 - S\u2019am\u00e9liorer en \u00e9quipe r\u00e9trospective, r\u00e9union efficace/S\u00e9ance 7 et 8 - Am\u00e9lioration continue, conduite de r\u00e9union et prise de d\u00e9cision \u00e9thique.pdf": {
+    "mtime": 1795709340.1334252,
+    "seen": 1795710021.7103965,
+    "ast_hash": "001f76a680b8555a11e6d46414374861",
+    "semantic_hash": "001f76a680b8555a11e6d46414374861"
+  },
+  "PASS remise \u00e0 niveau/informatique/Projet Java/ESIEA-ProjetJava-2026.pdf": {
+    "mtime": 1795709340.221425,
+    "seen": 1795710021.7103965,
+    "ast_hash": "52acae684c8d67882511823795f42298",
+    "semantic_hash": "52acae684c8d67882511823795f42298"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/ESIEAS\u00e9ance 1 - PASS Java.pdf": {
+    "mtime": 1795709340.2036362,
+    "seen": 1795710021.7103965,
+    "ast_hash": "bfa4a20841b074c40f9fbfd97b4028cb",
+    "semantic_hash": "bfa4a20841b074c40f9fbfd97b4028cb"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/ESIEAS\u00e9ance 3 et 4 - PASS Java.pdf": {
+    "mtime": 1795709340.2090845,
+    "seen": 1795710021.7103965,
+    "ast_hash": "394e24f9602146726bd27d28decdad2b",
+    "semantic_hash": "394e24f9602146726bd27d28decdad2b"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/ESIEAS\u00e9ance 5 et 6 - PASS Java.pdf": {
+    "mtime": 1795709340.214089,
+    "seen": 1795710021.7103965,
+    "ast_hash": "58ac9743ad491469eda184b9ce3850ab",
+    "semantic_hash": "58ac9743ad491469eda184b9ce3850ab"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/S\u00e9ance 7-8 - PASS Java.pdf": {
+    "mtime": 1795709340.2194202,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3c0a1e8195451f9f05427c3c0e05e04e",
+    "semantic_hash": "3c0a1e8195451f9f05427c3c0e05e04e"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP1_Seance1_Variables_Operateurs.pdf": {
+    "mtime": 1795709340.2016363,
+    "seen": 1795710021.7103965,
+    "ast_hash": "cb8f1db93fae106810764a961d0553b7",
+    "semantic_hash": "cb8f1db93fae106810764a961d0553b7"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP2_Seance1_Conditionnelles_Repetitives.pdf": {
+    "mtime": 1795709340.2056215,
+    "seen": 1795710021.7103965,
+    "ast_hash": "7055b39114678a1fb4816f6f8da97e37",
+    "semantic_hash": "7055b39114678a1fb4816f6f8da97e37"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP3_Seance2_Methodes.pdf": {
+    "mtime": 1795709340.2070763,
+    "seen": 1795710021.7103965,
+    "ast_hash": "f206406b577c8c266d75e5d6396dab9c",
+    "semantic_hash": "f206406b577c8c266d75e5d6396dab9c"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP4_Tableaux_Chaines.pdf": {
+    "mtime": 1795709340.2100837,
+    "seen": 1795710021.7103965,
+    "ast_hash": "9f19e6dc735c277ed9b29e7bf60ce216",
+    "semantic_hash": "9f19e6dc735c277ed9b29e7bf60ce216"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP5_Complexite_Recherche.pdf": {
+    "mtime": 1795709340.2110865,
+    "seen": 1795710021.7103965,
+    "ast_hash": "02cba5c4e234bddae9cdfdbf2b0b94b8",
+    "semantic_hash": "02cba5c4e234bddae9cdfdbf2b0b94b8"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP6_Recursivite.pdf": {
+    "mtime": 1795709340.2150843,
+    "seen": 1795710021.7103965,
+    "ast_hash": "2e262bb87d6358a3efd5f75b5ee19466",
+    "semantic_hash": "2e262bb87d6358a3efd5f75b5ee19466"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP7_Pile_File.pdf": {
+    "mtime": 1795709340.2160826,
+    "seen": 1795710021.7103965,
+    "ast_hash": "619bf74134b61bd120644b5799a73a64",
+    "semantic_hash": "619bf74134b61bd120644b5799a73a64"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP8_Tableaux_Dynamiques_Listes.pdf": {
+    "mtime": 1795709340.2170873,
+    "seen": 1795710021.7103965,
+    "ast_hash": "11cd374e1aa67629b7687ea870f5d04f",
+    "semantic_hash": "11cd374e1aa67629b7687ea870f5d04f"
+  },
+  "PASS remise \u00e0 niveau/informatique/Support cours et exercices/TP9_Arbres_Binaires.pdf": {
+    "mtime": 1795709340.2204244,
+    "seen": 1795710021.7103965,
+    "ast_hash": "99405f9ef4f71e1531b473371d4c18d1",
+    "semantic_hash": "99405f9ef4f71e1531b473371d4c18d1"
+  },
+  "PASS remise \u00e0 niveau/maths/Rappel math\u00e9matiques/PASSMATHS3AFISA-Partie 1.pdf": {
+    "mtime": 1795709340.2224424,
+    "seen": 1795710021.7103965,
+    "ast_hash": "76d5eda477c248d9ea6f2114e577f502",
+    "semantic_hash": "76d5eda477c248d9ea6f2114e577f502"
+  },
+  "PASS remise \u00e0 niveau/maths/Rappel math\u00e9matiques/PASSMATHS3AFISA-Partie 2.pdf": {
+    "mtime": 1795709340.2249012,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c6db7f1203bea6460e1f895adcf96f19",
+    "semantic_hash": "c6db7f1203bea6460e1f895adcf96f19"
+  },
+  "PASS remise \u00e0 niveau/maths/Rappel math\u00e9matiques/Partie1_sldies_complete.pdf": {
+    "mtime": 1795709340.2301514,
+    "seen": 1795710021.7103965,
+    "ast_hash": "7886e08ad32e3c2aabe9ba3faa390a52",
+    "semantic_hash": "7886e08ad32e3c2aabe9ba3faa390a52"
+  },
+  "PASS remise \u00e0 niveau/maths/Rappel math\u00e9matiques/Partie2_slides_complete.pdf": {
+    "mtime": 1795709340.2281928,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3a8a9edc87cfa7dc6cda2ceca7bfe78e",
+    "semantic_hash": "3a8a9edc87cfa7dc6cda2ceca7bfe78e"
+  },
+  "PASS remise \u00e0 niveau/maths/Rappel math\u00e9matiques/Partie2_slides_reduced.pdf": {
+    "mtime": 1795709340.225901,
+    "seen": 1795710021.7103965,
+    "ast_hash": "406b1d6e6ed28b07813fea67f7f0fddf",
+    "semantic_hash": "406b1d6e6ed28b07813fea67f7f0fddf"
+  },
+  "PASS remise \u00e0 niveau/maths/TDs/Corrig\u00e9 des exercices non trait\u00e9s en classe.pdf": {
+    "mtime": 1795709340.2321906,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e0fad8d14b5342d8ed7b2aef0b8c2027",
+    "semantic_hash": "e0fad8d14b5342d8ed7b2aef0b8c2027"
+  },
+  "PASS remise \u00e0 niveau/maths/TDs/TD PASS3AFISA.pdf": {
+    "mtime": 1795709340.2311516,
+    "seen": 1795710021.7103965,
+    "ast_hash": "af0e3806428f1ea602f3602c555a50e2",
+    "semantic_hash": "af0e3806428f1ea602f3602c555a50e2"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/Code de Gray.pdf": {
+    "mtime": 1795709340.151409,
+    "seen": 1795710021.7103965,
+    "ast_hash": "2ac34ebbe9b233186d654f0debc194df",
+    "semantic_hash": "2ac34ebbe9b233186d654f0debc194df"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/Le Filtrage.pdf": {
+    "mtime": 1795709340.1584177,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c5742537113932441d5c7b0abcd8d8ed",
+    "semantic_hash": "c5742537113932441d5c7b0abcd8d8ed"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/SYS2041-TD N\u00b01 Correction.pdf": {
+    "mtime": 1795709340.1504316,
+    "seen": 1795710021.7103965,
+    "ast_hash": "df9b9587c2e5b2dd36010dd3052d5344",
+    "semantic_hash": "df9b9587c2e5b2dd36010dd3052d5344"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/SYS2041-TD N\u00b01.pdf": {
+    "mtime": 1795709340.1484258,
+    "seen": 1795710021.7103965,
+    "ast_hash": "49bf1122aeb483df1b25203869b76754",
+    "semantic_hash": "49bf1122aeb483df1b25203869b76754"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/SYS2041-TD N\u00b02 correction.pdf": {
+    "mtime": 1795709340.1534085,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c0d6927e228de7a5f1cabf2579142656",
+    "semantic_hash": "c0d6927e228de7a5f1cabf2579142656"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/SYS2041-TD N\u00b02.pdf": {
+    "mtime": 1795709340.1524086,
+    "seen": 1795710021.7103965,
+    "ast_hash": "9ba6858ab46d264709a3d0b3c59089b1",
+    "semantic_hash": "9ba6858ab46d264709a3d0b3c59089b1"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/SYS2041-TD N\u00b03 Sujet.pdf": {
+    "mtime": 1795709340.1554248,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d546a0e536823816ae26669598e698c3",
+    "semantic_hash": "d546a0e536823816ae26669598e698c3"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/TD Filtrage du 1er ordre-PASS.pdf": {
+    "mtime": 1795709340.1604156,
+    "seen": 1795710021.7103965,
+    "ast_hash": "711ad423cd2adf46b87fbf6c3f21001a",
+    "semantic_hash": "711ad423cd2adf46b87fbf6c3f21001a"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/Th\u00e9venin TD N\u00b01.pdf": {
+    "mtime": 1795709340.142411,
+    "seen": 1795710021.7103965,
+    "ast_hash": "360236332b285746669c9b3d679d7129",
+    "semantic_hash": "360236332b285746669c9b3d679d7129"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/G\u00e9n\u00e9ralit\u00e9s/le filtrage actif et passif.32.pdf": {
+    "mtime": 1795709340.1464257,
+    "seen": 1795710021.7103965,
+    "ast_hash": "81685bcce84cb979710d4e944e96afef",
+    "semantic_hash": "81685bcce84cb979710d4e944e96afef"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/TD bode.pdf": {
+    "mtime": 1795709340.1986444,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c5dd0f63c045f431f9530d3ae57e7fd5",
+    "semantic_hash": "c5dd0f63c045f431f9530d3ae57e7fd5"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/TP N\u00b02 Diode.pdf": {
+    "mtime": 1795709340.2006183,
+    "seen": 1795710021.7103965,
+    "ast_hash": "427a176019d32aa3d4d4fe764f8d1f65",
+    "semantic_hash": "427a176019d32aa3d4d4fe764f8d1f65"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/TP arduino.pdf": {
+    "mtime": 1795709340.1624138,
+    "seen": 1795710021.7103965,
+    "ast_hash": "ecdf397522b3bfd4ae2c913938e3a92c",
+    "semantic_hash": "ecdf397522b3bfd4ae2c913938e3a92c"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/cours mise a niveau electronique 3+4.pdf": {
+    "mtime": 1795709340.182537,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c36ced7f551820d7fad57b698b17f19d",
+    "semantic_hash": "c36ced7f551820d7fad57b698b17f19d"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/cours mise a niveau electronique Chapitre 1+2.pdf": {
+    "mtime": 1795709340.1745362,
+    "seen": 1795710021.7103965,
+    "ast_hash": "20d55350ff07a1b7cc235b1a7877bbc1",
+    "semantic_hash": "20d55350ff07a1b7cc235b1a7877bbc1"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/filtre passif.pdf": {
+    "mtime": 1795709340.1966352,
+    "seen": 1795710021.7103965,
+    "ast_hash": "197efce7415702fad5bbd74f097c2a34",
+    "semantic_hash": "197efce7415702fad5bbd74f097c2a34"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/mise a niveau electronique diagramme de bode +chapitre 5.pdf": {
+    "mtime": 1795709340.1875384,
+    "seen": 1795710021.7103965,
+    "ast_hash": "16e5c3608c1d09b5abf444affafb400e",
+    "semantic_hash": "16e5c3608c1d09b5abf444affafb400e"
+  },
+  "PASS remise \u00e0 niveau/\u00e9lectronique/cours 2026/presentation carte arduino.pdf": {
+    "mtime": 1795709340.16644,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a11a9516549e3915861ffd2119a49e86",
+    "semantic_hash": "a11a9516549e3915861ffd2119a49e86"
+  },
+  "anglais/Lesson 4 - 5th November 2026/Email style (students).pdf": {
+    "mtime": 1795709339.8541112,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a2b9c2b930bec0125c8644859b80019d",
+    "semantic_hash": "a2b9c2b930bec0125c8644859b80019d"
+  },
+  "anglais/Lesson 4 - 5th November 2026/Email style Answers.pdf": {
+    "mtime": 1795709339.8641257,
+    "seen": 1795710021.7103965,
+    "ast_hash": "0339de530c2e7bb4e3789677b3ab6ee7",
+    "semantic_hash": "0339de530c2e7bb4e3789677b3ab6ee7"
+  },
+  "anglais/Lesson 4 - 5th November 2026/Emailing worksheet teachers materials/In Co Int U10 - Teachers.pdf": {
+    "mtime": 1795709339.8277867,
+    "seen": 1795710021.7103965,
+    "ast_hash": "511883bb32a179f2ad1e2845d135d89e",
+    "semantic_hash": "511883bb32a179f2ad1e2845d135d89e"
+  },
+  "anglais/Lesson 4 - 5th November 2026/Emailing worksheet teachers materials/In Co Int U10 - audio script.pdf": {
+    "mtime": 1795709339.8247871,
+    "seen": 1795710021.7103965,
+    "ast_hash": "950573455f872fb6fb089b4759367b38",
+    "semantic_hash": "950573455f872fb6fb089b4759367b38"
+  },
+  "anglais/Lesson 4 - 5th November 2026/In Co Int U10 Email.pdf": {
+    "mtime": 1795709339.8691154,
+    "seen": 1795710021.7103965,
+    "ast_hash": "881a55058333e95f8dfecce1ae610e49",
+    "semantic_hash": "881a55058333e95f8dfecce1ae610e49"
+  },
+  "anglais/TOEIC/Remote TOEIC/Guide du candidat.pdf": {
+    "mtime": 1795709341.3389924,
+    "seen": 1795710021.7103965,
+    "ast_hash": "39f109a3f2b80c7ef26bac0ab66737b5",
+    "semantic_hash": "39f109a3f2b80c7ef26bac0ab66737b5"
+  },
+  "anglais/TOEIC/Remote TOEIC/Manuel du candidat.pdf": {
+    "mtime": 1795709341.3242488,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3873dd1f81fdc3db30b75706523bb1f3",
+    "semantic_hash": "3873dd1f81fdc3db30b75706523bb1f3"
+  },
+  "anglais/TOEIC/TOEIC information and tips/TOEIC level descriptions.pdf": {
+    "mtime": 1795709340.8470154,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d0dcb6d68acb0060aebf1f8a13dfabd5",
+    "semantic_hash": "d0dcb6d68acb0060aebf1f8a13dfabd5"
+  },
+  "anglais/TOEIC/TOEIC practice test/TS Listening script + Answers (page 5).pdf": {
+    "mtime": 1795709341.3520007,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3c616fa6b8e69bb172859fb8dfcc6314",
+    "semantic_hash": "3c616fa6b8e69bb172859fb8dfcc6314"
+  },
+  "anglais/TOEIC/TOEIC practice test/Targetscore Listening.pdf": {
+    "mtime": 1795709341.344989,
+    "seen": 1795710021.7103965,
+    "ast_hash": "bf98502984b241994aefc6f3ceafa6cd",
+    "semantic_hash": "bf98502984b241994aefc6f3ceafa6cd"
+  },
+  "anglais/TOEIC/TOEIC practice test/Targetscore Reading.pdf": {
+    "mtime": 1795709341.3479993,
+    "seen": 1795710021.7103965,
+    "ast_hash": "2f40d02cbb14ea722c82ac7ea8e666e5",
+    "semantic_hash": "2f40d02cbb14ea722c82ac7ea8e666e5"
+  },
+  "anglais/TOEIC/TOLPC/TOLPC FAQs.pdf": {
+    "mtime": 1795709341.343005,
+    "seen": 1795710021.7103965,
+    "ast_hash": "185a51eb0df11272ef4d3ca56062be8a",
+    "semantic_hash": "185a51eb0df11272ef4d3ca56062be8a"
+  },
+  "architecture microprocesseur/Cours/Cours1_Representation_Nombres_modif.pdf": {
+    "mtime": 1795709339.8755383,
+    "seen": 1795710021.7103965,
+    "ast_hash": "2bd209b56a9e63a554cced8b63a9afeb",
+    "semantic_hash": "2bd209b56a9e63a554cced8b63a9afeb"
+  },
+  "architecture microprocesseur/Cours/Cours2_Architecture.pdf": {
+    "mtime": 1795709339.881554,
+    "seen": 1795710021.7103965,
+    "ast_hash": "8d9daac1443b73caa27162b3c4adf5c4",
+    "semantic_hash": "8d9daac1443b73caa27162b3c4adf5c4"
+  },
+  "architecture microprocesseur/Cours/Cours5_Memoire.pdf": {
+    "mtime": 1795709339.8941221,
+    "seen": 1795710021.7103965,
+    "ast_hash": "ea028c9919649ea46f694aaba975e692",
+    "semantic_hash": "ea028c9919649ea46f694aaba975e692"
+  },
+  "architecture microprocesseur/Cours/cours3_RISC_Pipeline.pdf": {
+    "mtime": 1795709339.8865378,
+    "seen": 1795710021.7103965,
+    "ast_hash": "ef636bb03df63b6df7b91ad9b610626e",
+    "semantic_hash": "ef636bb03df63b6df7b91ad9b610626e"
+  },
+  "architecture microprocesseur/Cours/cours6Asm_modif.pdf": {
+    "mtime": 1795709339.9011047,
+    "seen": 1795710021.7103965,
+    "ast_hash": "1c922a8be57c61e4fa16ab9084afbbd0",
+    "semantic_hash": "1c922a8be57c61e4fa16ab9084afbbd0"
+  },
+  "architecture microprocesseur/TD/TD1-Representation des donnees.pdf": {
+    "mtime": 1795709339.9193509,
+    "seen": 1795710021.7103965,
+    "ast_hash": "18e4207fe303ee80326da0e7562228ad",
+    "semantic_hash": "18e4207fe303ee80326da0e7562228ad"
+  },
+  "architecture microprocesseur/TD/TD2-Pipeline.pdf": {
+    "mtime": 1795709339.920387,
+    "seen": 1795710021.7103965,
+    "ast_hash": "1d43b2602d7824a9df00a0fdfaae86e3",
+    "semantic_hash": "1d43b2602d7824a9df00a0fdfaae86e3"
+  },
+  "architecture microprocesseur/TD/TD3-Memoire.pdf": {
+    "mtime": 1795709339.923355,
+    "seen": 1795710021.7103965,
+    "ast_hash": "60576943b8e9b249c831ea6d91535f12",
+    "semantic_hash": "60576943b8e9b249c831ea6d91535f12"
+  },
+  "architecture microprocesseur/TP/TP0_Installation_logiciels.pdf": {
+    "mtime": 1795709339.925359,
+    "seen": 1795710021.7103965,
+    "ast_hash": "4756b732a64dab6576dd678c7cd29260",
+    "semantic_hash": "4756b732a64dab6576dd678c7cd29260"
+  },
+  "architecture microprocesseur/TP/TP0_PriseEnMain_STM32CubeIDE.pdf": {
+    "mtime": 1795709339.9323564,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e44b967a2972bec5f56acc323000eaa7",
+    "semantic_hash": "e44b967a2972bec5f56acc323000eaa7"
+  },
+  "bases de donn\u00e9es/Cours/Cours1_BD.pdf": {
+    "mtime": 1795709340.1088955,
+    "seen": 1795710021.7103965,
+    "ast_hash": "882c62eaeb90c3f771d0c9db0bbc43dc",
+    "semantic_hash": "882c62eaeb90c3f771d0c9db0bbc43dc"
+  },
+  "bases de donn\u00e9es/Cours/Cours2_BD.pdf": {
+    "mtime": 1795709340.112871,
+    "seen": 1795710021.7103965,
+    "ast_hash": "8933ddcaa18f650a3e5ec4c90ec34724",
+    "semantic_hash": "8933ddcaa18f650a3e5ec4c90ec34724"
+  },
+  "bases de donn\u00e9es/Installation d\u2019Oracle SQL Developer/Oracle_SQL_Developer. (2).pdf": {
+    "mtime": 1795709339.9375558,
+    "seen": 1795710021.7103965,
+    "ast_hash": "4a6a9fcd0132031f1259ebcfebd0a5e1",
+    "semantic_hash": "4a6a9fcd0132031f1259ebcfebd0a5e1"
+  },
+  "bases de donn\u00e9es/Installation d\u2019Oracle SQL Developer/macOS_Oracle_SQL_Developer (1).pdf": {
+    "mtime": 1795709339.9394464,
+    "seen": 1795710021.7103965,
+    "ast_hash": "6ffe9167c1487b87999d072608236abd",
+    "semantic_hash": "6ffe9167c1487b87999d072608236abd"
+  },
+  "bases de donn\u00e9es/Travaux pratiques/TP1.pdf": {
+    "mtime": 1795709340.1151958,
+    "seen": 1795710021.7103965,
+    "ast_hash": "db14b3a7559ade4ea99b1120750e3fcf",
+    "semantic_hash": "db14b3a7559ade4ea99b1120750e3fcf"
+  },
+  "bases de donn\u00e9es/Travaux pratiques/TP2.pdf": {
+    "mtime": 1795709340.116197,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e3fe999cd909ba9739a4632896f758e1",
+    "semantic_hash": "e3fe999cd909ba9739a4632896f758e1"
+  },
+  "java POO/Course 1 Part 2/Cours_2_FR.pdf": {
+    "mtime": 1795709340.2537107,
+    "seen": 1795710021.7103965,
+    "ast_hash": "ecb76aed5eea0b40c18ca18e781a2430",
+    "semantic_hash": "ecb76aed5eea0b40c18ca18e781a2430"
+  },
+  "java POO/Course 1 part 1/01_Fondamentaux_Classes_UML_Heritage_Polymorphisme_FR.pdf": {
+    "mtime": 1795709340.2493336,
+    "seen": 1795710021.7103965,
+    "ast_hash": "16f9090af2058a16f0150c4676a82d0e",
+    "semantic_hash": "16f9090af2058a16f0150c4676a82d0e"
+  },
+  "java POO/Course 1 part 1/Cours_1_FR.pdf": {
+    "mtime": 1795709340.2587166,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3b6932fe3eedf4e55b4531a2984c0f99",
+    "semantic_hash": "3b6932fe3eedf4e55b4531a2984c0f99"
+  },
+  "java POO/Course 2/02_Heritage_Abstract_Interfaces_Iterateurs_Exceptions_Patterns_FR.pdf": {
+    "mtime": 1795709340.250335,
+    "seen": 1795710021.7103965,
+    "ast_hash": "037f325bed7b1e0bf3954f37abbf3ceb",
+    "semantic_hash": "037f325bed7b1e0bf3954f37abbf3ceb"
+  },
+  "java POO/Course 2/Cours_3_FR.pdf": {
+    "mtime": 1795709340.2617366,
+    "seen": 1795710021.7103965,
+    "ast_hash": "29a8f71c80a793361c617faa6d78af8c",
+    "semantic_hash": "29a8f71c80a793361c617faa6d78af8c"
+  },
+  "java POO/Course 3/ALT_03_Generiques_Collections_FR.pdf": {
+    "mtime": 1795709340.2637105,
+    "seen": 1795710021.7103965,
+    "ast_hash": "0ca3685cca52338b7d1a28cf3c61ec5f",
+    "semantic_hash": "0ca3685cca52338b7d1a28cf3c61ec5f"
+  },
+  "java POO/Course 3/Cours_4_FR.pdf": {
+    "mtime": 1795709340.2657278,
+    "seen": 1795710021.7103965,
+    "ast_hash": "35e39892530427ece9ccc3a4cfb5e823",
+    "semantic_hash": "35e39892530427ece9ccc3a4cfb5e823"
+  },
+  "probabilit\u00e9s et statistiques/Cours de Probabili\u00e9s/Probabilte discrete exos.pdf": {
+    "mtime": 1795709340.2361503,
+    "seen": 1795710021.7103965,
+    "ast_hash": "3dc24f2df77f6377a9bb065e4ad826a8",
+    "semantic_hash": "3dc24f2df77f6377a9bb065e4ad826a8"
+  },
+  "probabilit\u00e9s et statistiques/Cours de Probabili\u00e9s/cours d\u00e9no-prob.pdf": {
+    "mtime": 1795709340.2341533,
+    "seen": 1795710021.7103965,
+    "ast_hash": "eef4ecc5617d200051494990dcbf81e7",
+    "semantic_hash": "eef4ecc5617d200051494990dcbf81e7"
+  },
+  "probabilit\u00e9s et statistiques/Cours de Probabili\u00e9s/cours sur les variables et lois discr\u00e8tes (1).pdf": {
+    "mtime": 1795709340.237158,
+    "seen": 1795710021.7103965,
+    "ast_hash": "dab4b87af1d7d2812ec5511fd7ecafdc",
+    "semantic_hash": "dab4b87af1d7d2812ec5511fd7ecafdc"
+  },
+  "probabilit\u00e9s et statistiques/Cours de Probabili\u00e9s/exos d\u00e9n-prob TD 1 2026.pdf": {
+    "mtime": 1795709340.233153,
+    "seen": 1795710021.7103965,
+    "ast_hash": "30a941eea9fa86afd926380c8b5604d8",
+    "semantic_hash": "30a941eea9fa86afd926380c8b5604d8"
+  },
+  "probabilit\u00e9s et statistiques/Exercices suppl\u00e9mentaires/Exercice dapplication.pdf": {
+    "mtime": 1795709340.2381535,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e424fa2a1964e06d5468a0c35d78116b",
+    "semantic_hash": "e424fa2a1964e06d5468a0c35d78116b"
+  },
+  "probabilit\u00e9s et statistiques/Statistiques Descriptives/ING1_GI_DataExp_TP1_Univarie pdf.pdf": {
+    "mtime": 1795709340.2483363,
+    "seen": 1795710021.7103965,
+    "ast_hash": "6ed76b25bce8d964ac7e0b58bc4ac594",
+    "semantic_hash": "6ed76b25bce8d964ac7e0b58bc4ac594"
+  },
+  "probabilit\u00e9s et statistiques/Statistiques Descriptives/Statistique descriptive univari\u00e9e pdf.pdf": {
+    "mtime": 1795709340.2462747,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e94c1eb22a58ab1db5c2155082cc4d60",
+    "semantic_hash": "e94c1eb22a58ab1db5c2155082cc4d60"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/Loi normale - Suppl\u00e9ment de cours.pdf": {
+    "mtime": 1795709340.2452695,
+    "seen": 1795710021.7103965,
+    "ast_hash": "7668184b36167fefec5b9d6cf80bbef8",
+    "semantic_hash": "7668184b36167fefec5b9d6cf80bbef8"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/Probabilites continues.pdf": {
+    "mtime": 1795709340.2401528,
+    "seen": 1795710021.7103965,
+    "ast_hash": "c31a97e5b14e0699d4e369130d6942ab",
+    "semantic_hash": "c31a97e5b14e0699d4e369130d6942ab"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/exos variables aleatoires continues.pdf": {
+    "mtime": 1795709340.2422745,
+    "seen": 1795710021.7103965,
+    "ast_hash": "ab9ef7739bbe915a75ad4509a6343c8d",
+    "semantic_hash": "ab9ef7739bbe915a75ad4509a6343c8d"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/table_norm_stud_chi2.pdf": {
+    "mtime": 1795709340.2432728,
+    "seen": 1795710021.7103965,
+    "ast_hash": "18323767c978c997df44aff73af6bb3d",
+    "semantic_hash": "18323767c978c997df44aff73af6bb3d"
+  },
+  "r\u00e9seau/cours 1/Chapitre 1 \u2013 Introduction aux R\u00e9seaux Informatiques.pdf": {
+    "mtime": 1791214662.327488,
+    "seen": 1795710021.7103965,
+    "ast_hash": "e01041207c56fa72434da13055a25c06",
+    "semantic_hash": "e01041207c56fa72434da13055a25c06"
+  },
+  "r\u00e9seau/cours 2/Chapitre 2 \u2013 Mod\u00e8les des r\u00e9seaux - La couche physique - La couche Liaison des donn\u00e9es.pdf": {
+    "mtime": 1791383739.6094491,
+    "seen": 1795710021.7103965,
+    "ast_hash": "0d6fefbd82464e8235231477de6b7b94",
+    "semantic_hash": "0d6fefbd82464e8235231477de6b7b94"
+  },
+  "r\u00e9seau/cours 3/Chapitre 3 \u2013 La couche R\u00e9seau - Routage - FLSM - VLSM.pdf": {
+    "mtime": 1793637010.6829817,
+    "seen": 1795710021.7103965,
+    "ast_hash": "ba1f0ad986330247a5ddad3510425c7d",
+    "semantic_hash": "ba1f0ad986330247a5ddad3510425c7d"
+  },
+  "r\u00e9seau/cours 4/135.pdf": {
+    "mtime": 1795634716.0961483,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a0fb7739c829ebe9bd85295788a333b1",
+    "semantic_hash": "a0fb7739c829ebe9bd85295788a333b1"
+  },
+  "r\u00e9seau/cours 4/Chapitre 4 \u2013 Communication R\u00e9seau Local  R\u00e9seau Distant - DNS - ARP - ICMP - DHCP.pdf": {
+    "mtime": 1795621367.4687457,
+    "seen": 1795710021.7103965,
+    "ast_hash": "4fdc8bc1b3bc9883b948f25ba2d61870",
+    "semantic_hash": "4fdc8bc1b3bc9883b948f25ba2d61870"
+  },
+  "r\u00e9seau/supports moodle/Activit\u00e9s/Activit\u00e9 - ARP.pdf": {
+    "mtime": 1795709340.284718,
+    "seen": 1795710021.7103965,
+    "ast_hash": "090a794767833304ff2e555682a3f1ff",
+    "semantic_hash": "090a794767833304ff2e555682a3f1ff"
+  },
+  "r\u00e9seau/supports moodle/G\u00e9n\u00e9ralit\u00e9s/Chapitre 0 - Objectifs et Modalit\u00e9s.pdf": {
+    "mtime": 1795709340.2677095,
+    "seen": 1795710021.7103965,
+    "ast_hash": "fda2f98f48d9a69b338339a6f88c9145",
+    "semantic_hash": "fda2f98f48d9a69b338339a6f88c9145"
+  },
+  "r\u00e9seau/supports moodle/Information Utile/Checklist PC - Ecole.pdf": {
+    "mtime": 1795709340.295823,
+    "seen": 1795710021.7103965,
+    "ast_hash": "5cecbfb5173c3744b1048203d047006e",
+    "semantic_hash": "5cecbfb5173c3744b1048203d047006e"
+  },
+  "r\u00e9seau/supports moodle/Information Utile/Disable your Firewall.pdf": {
+    "mtime": 1795709340.2938216,
+    "seen": 1795710021.7103965,
+    "ast_hash": "b877b46dd5ebc7d431e0cd3df6a6fb8b",
+    "semantic_hash": "b877b46dd5ebc7d431e0cd3df6a6fb8b"
+  },
+  "r\u00e9seau/supports moodle/Information Utile/El\u00e9ments \u00e0 Installer.pdf": {
+    "mtime": 1795709340.2918243,
+    "seen": 1795710021.7103965,
+    "ast_hash": "7448e78eac791464705e8f0689ad929a",
+    "semantic_hash": "7448e78eac791464705e8f0689ad929a"
+  },
+  "r\u00e9seau/supports moodle/Information Utile/IP Address Configuration.pdf": {
+    "mtime": 1795709340.2898278,
+    "seen": 1795710021.7103965,
+    "ast_hash": "5692138c3d619696ad02e454c39ba2ce",
+    "semantic_hash": "5692138c3d619696ad02e454c39ba2ce"
+  },
+  "r\u00e9seau/supports moodle/Information Utile/Plan Salle I402 et I403.pdf": {
+    "mtime": 1795709340.2867188,
+    "seen": 1795710021.7103965,
+    "ast_hash": "cafda103eca39b1a965e1af9ee0ba0cf",
+    "semantic_hash": "cafda103eca39b1a965e1af9ee0ba0cf"
+  },
+  "r\u00e9seau/supports moodle/Information Utile/Routeur 4321 Initialization Procedure.pdf": {
+    "mtime": 1795709340.294824,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a96656f223c86681501bcd6b97e7422a",
+    "semantic_hash": "a96656f223c86681501bcd6b97e7422a"
+  },
+  "r\u00e9seau/supports moodle/TP 1 - Param\u00e9trage IP & Acc\u00e8s distant/TP 1 - Param\u00e9trage IP Acc\u00e8s distant.pdf": {
+    "mtime": 1795709340.2978213,
+    "seen": 1795710021.7103965,
+    "ast_hash": "1fcc85d7d432882371b54b054b37e2f5",
+    "semantic_hash": "1fcc85d7d432882371b54b054b37e2f5"
+  },
+  "r\u00e9seau/supports moodle/TP 2 - Configuration LAN & Routage Inter-R\u00e9seaux/TP 2 - Configuration LAN Routage Inter-R\u00e9seaux.pdf": {
+    "mtime": 1795709340.3058267,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d62f54a3c1b4abf04a090e11d547f722",
+    "semantic_hash": "d62f54a3c1b4abf04a090e11d547f722"
+  },
+  "r\u00e9seau/supports moodle/TP 3 - Routage Linux & NAT/TP 3 - Routage Linux NAT.pdf": {
+    "mtime": 1795709340.3140213,
+    "seen": 1795710021.7103965,
+    "ast_hash": "1e5acdfb726b521df620c74def2180a7",
+    "semantic_hash": "1e5acdfb726b521df620c74def2180a7"
+  },
+  "r\u00e9seau/supports moodle/TP 5 - Architecture, Adressage et Routage statique/TP 5 - Architecture, Adressage et Routage statique.pdf": {
+    "mtime": 1795709340.318021,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d19907e3fea0b05bd475ead6009a0d9c",
+    "semantic_hash": "d19907e3fea0b05bd475ead6009a0d9c"
+  },
+  "r\u00e9seau/supports moodle/TP 6 - Interconnexion r\u00e9seau avec routage statique, services DHCPPAT e/TP 6 - Interconnexion r\u00e9seau avec routage statique, services DHCPPAT et analyse ARP-ICMP.pdf": {
+    "mtime": 1795709340.319039,
+    "seen": 1795710021.7103965,
+    "ast_hash": "7fb670ac1ec21a4f2ce71633265d45e1",
+    "semantic_hash": "7fb670ac1ec21a4f2ce71633265d45e1"
+  },
+  "r\u00e9seau/supports moodle/TP4 \u2013 ARP et Compagnie/TP4 \u2013 ARP \u2013 Address Resolution Protocol et Compagnie.pdf": {
+    "mtime": 1795709340.3160312,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d4170b72911940d49201762b7f9262c0",
+    "semantic_hash": "d4170b72911940d49201762b7f9262c0"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/1 - Syst\u00e8mes dexploitation - Sommaire et Introduction.pdf": {
+    "mtime": 1795709339.829787,
+    "seen": 1795710021.7103965,
+    "ast_hash": "99f00405de49d88a1b5f3422b998be9b",
+    "semantic_hash": "99f00405de49d88a1b5f3422b998be9b"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/10 - Syst\u00e8mes dexploitation - Scripts Shell.pdf": {
+    "mtime": 1795709339.842801,
+    "seen": 1795710021.7103965,
+    "ast_hash": "fae63b6015bfce1938ba33d21dd84c24",
+    "semantic_hash": "fae63b6015bfce1938ba33d21dd84c24"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/11 - Syst\u00e8mes dexploitation - Gestion des Paquets.pdf": {
+    "mtime": 1795709339.8437955,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d9ff4f2219379d399f5b659bf5a688ab",
+    "semantic_hash": "d9ff4f2219379d399f5b659bf5a688ab"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/12 - Syst\u00e8mes dexploitation - Permissions avanc\u00e9es.pdf": {
+    "mtime": 1795709339.844796,
+    "seen": 1795710021.7103965,
+    "ast_hash": "040917aaaa4a45d32d8f002fdefbf5cb",
+    "semantic_hash": "040917aaaa4a45d32d8f002fdefbf5cb"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/13 - Syst\u00e8mes dexploitation - Gestionnaire de Services et Journalisation.pdf": {
+    "mtime": 1795709339.8457932,
+    "seen": 1795710021.7103965,
+    "ast_hash": "60b233f24359f46facd054b42551363a",
+    "semantic_hash": "60b233f24359f46facd054b42551363a"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/14 - Syst\u00e8mes dexploitation - T\u00e2ches Planifi\u00e9es.pdf": {
+    "mtime": 1795709339.8531117,
+    "seen": 1795710021.7103965,
+    "ast_hash": "4683ac908cd96ba0e34d8387b7923613",
+    "semantic_hash": "4683ac908cd96ba0e34d8387b7923613"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/2 - Syst\u00e8mes dexploitation - Noyau et Pilotes.pdf": {
+    "mtime": 1795709339.8318074,
+    "seen": 1795710021.7103965,
+    "ast_hash": "944bcb3c9d5b985b616345612f7eaabe",
+    "semantic_hash": "944bcb3c9d5b985b616345612f7eaabe"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/3 - Syst\u00e8mes dexploitation - Utilisateurs et Sessions.pdf": {
+    "mtime": 1795709339.8327897,
+    "seen": 1795710021.7103965,
+    "ast_hash": "1e1445921ae5b4ba277d0f085b6ac673",
+    "semantic_hash": "1e1445921ae5b4ba277d0f085b6ac673"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/4 - Syst\u00e8mes dexploitation - Syst\u00e8me de fichier.pdf": {
+    "mtime": 1795709339.8347867,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d1e62c44bc84600cf4025dd9d759f443",
+    "semantic_hash": "d1e62c44bc84600cf4025dd9d759f443"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/5 - Syst\u00e8mes dexploitation - Permissions et Droits.pdf": {
+    "mtime": 1795709339.8358152,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a4677bb01e92b072d020f6e6493a94eb",
+    "semantic_hash": "a4677bb01e92b072d020f6e6493a94eb"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/6 - Syst\u00e8mes dexploitation - Shell et Utilitaires.pdf": {
+    "mtime": 1795709339.8368232,
+    "seen": 1795710021.7103965,
+    "ast_hash": "def823a0138ee195f80acce53e10cc1b",
+    "semantic_hash": "def823a0138ee195f80acce53e10cc1b"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/7 - Syst\u00e8mes dexploitation - Gestion de la M\u00e9moire.pdf": {
+    "mtime": 1795709339.8377867,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d0f777e899fbde9db434892f88e60999",
+    "semantic_hash": "d0f777e899fbde9db434892f88e60999"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/8 - Syst\u00e8mes dexploitation - Programmes et Processus.pdf": {
+    "mtime": 1795709339.840791,
+    "seen": 1795710021.7103965,
+    "ast_hash": "a9a1e2e428fae9d629130b759ef817e8",
+    "semantic_hash": "a9a1e2e428fae9d629130b759ef817e8"
+  },
+  "syst\u00e8mes d'exploitation/Cours/Supports de Cours/9 - Syst\u00e8mes dexploitation - Variables dEnvironnement.pdf": {
+    "mtime": 1795709339.8417926,
+    "seen": 1795710021.7103965,
+    "ast_hash": "89954e1c8dd24a8d460eef4129e33a64",
+    "semantic_hash": "89954e1c8dd24a8d460eef4129e33a64"
+  },
+  "traitement du signal/Supports 2026-2027/TDAO1_2025-2026-FISA.pdf": {
+    "mtime": 1795709341.3705692,
+    "seen": 1795710021.7103965,
+    "ast_hash": "6799fce46a95a5b7ec43ecfd23000c43",
+    "semantic_hash": "6799fce46a95a5b7ec43ecfd23000c43"
+  },
+  "traitement du signal/Supports 2026-2027/TDAO2_SD_2024-2025-FISA.pdf": {
+    "mtime": 1795709341.371546,
+    "seen": 1795710021.7103965,
+    "ast_hash": "92815ff0fe82c00a464119dfb6ee4a1c",
+    "semantic_hash": "92815ff0fe82c00a464119dfb6ee4a1c"
+  },
+  "traitement du signal/Supports 2026-2027/TDAO3-SD_2024-2025.pdf": {
+    "mtime": 1795709341.373572,
+    "seen": 1795710021.7103965,
+    "ast_hash": "0f5adda9fb1cf54df42d86f14834cf27",
+    "semantic_hash": "0f5adda9fb1cf54df42d86f14834cf27"
+  },
+  "traitement du signal/Supports 2026-2027/TD_TNS_tout_FISA_2024_2025.pdf": {
+    "mtime": 1795709341.3685453,
+    "seen": 1795710021.7103965,
+    "ast_hash": "06c0606aa2a7e6fc017e9c21b47808a5",
+    "semantic_hash": "06c0606aa2a7e6fc017e9c21b47808a5"
+  },
+  "traitement du signal/Supports 2026-2027/cours1-2026-2027-FISA.pdf": {
+    "mtime": 1795709341.355023,
+    "seen": 1795710021.7103965,
+    "ast_hash": "4e8f049e27e583720008e2ca3bbefaab",
+    "semantic_hash": "4e8f049e27e583720008e2ca3bbefaab"
+  },
+  "traitement du signal/Supports 2026-2027/cours2-2026-2027-FISA.pdf": {
+    "mtime": 1795709341.3584216,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d27e98192b1a9b3e3a6b22882b3e4cec",
+    "semantic_hash": "d27e98192b1a9b3e3a6b22882b3e4cec"
+  },
+  "traitement du signal/Supports 2026-2027/cours3-2026-2027-FISA.pdf": {
+    "mtime": 1795709341.3604233,
+    "seen": 1795710021.7103965,
+    "ast_hash": "6d5238ca86c910082d13c3ae6c23051d",
+    "semantic_hash": "6d5238ca86c910082d13c3ae6c23051d"
+  },
+  "traitement du signal/Supports 2026-2027/cours4-2026-2027-FISA.pdf": {
+    "mtime": 1795709341.3635366,
+    "seen": 1795710021.7103965,
+    "ast_hash": "d887bf4407d0798707340a03c247bed6",
+    "semantic_hash": "d887bf4407d0798707340a03c247bed6"
+  },
+  "traitement du signal/Supports 2026-2027/cours5-2026-2027-FISA.pdf": {
+    "mtime": 1795709341.3665488,
+    "seen": 1795710021.7103965,
+    "ast_hash": "82c9e91479bc5033335c48053a6fb824",
+    "semantic_hash": "82c9e91479bc5033335c48053a6fb824"
+  },
+  "traitement du signal/TP 2026-2027/TP1-2026-2027-Version-Etudiants-avecfigures.pdf": {
+    "mtime": 1795709341.3765893,
+    "seen": 1795710021.7103965,
+    "ast_hash": "edb6b88187dda38bb1cd1fd709cb37e4",
+    "semantic_hash": "edb6b88187dda38bb1cd1fd709cb37e4"
+  }
+}

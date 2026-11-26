@@ -1,0 +1,16 @@
+# Audio et transcriptions brutes (les résumés .md suffisent)
+*.m4a
+*.txt
+# Doublons HTML des résumés, script utilitaire, images perso
+*.html
+*.py
+*.jpg
+*.svg
+*.docx
+# Gros livres / datasheets de référence (des milliers de pages)
+réseau/supports moodle/References/
+architecture microprocesseur/Datasheets/
+# Fichiers administratifs (répartitions de groupes, liste UID)
+*Répartition*
+réseau/supports moodle/Généralités/UID - 3A - FISA.pdf
+graphify-out/

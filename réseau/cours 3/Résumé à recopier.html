@@ -1,0 +1,36 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>Résumé chapitre 3</title><style>body{font-family:'Times New Roman',serif;font-size:17px;line-height:1.5;max-width:820px;margin:30px auto;padding:0 20px;color:#111;background:#fff}
+h2{text-align:center;font-size:18px;margin:28px 0 10px} h3{font-size:17px;margin:18px 0 6px;text-decoration:underline}
+p{margin:8px 0} ul,ol{margin:4px 0 8px;padding-left:26px} li{margin:3px 0}
+table{border-collapse:collapse;margin:8px 0} th,td{border:1px solid #555;padding:4px 10px;text-align:left} th{background:#eee}
+code{font-family:Consolas,monospace;font-size:15px;background:#f2f2f2;padding:0 3px}
+pre{font-family:Consolas,monospace;font-size:14px;background:#f6f6f6;border:1px solid #ccc;padding:6px 10px}
+img{max-width:100%;height:auto} .schema{text-align:center;margin:10px 0} hr{border:none;border-top:2px dashed #999;margin:22px 0}</style></head><body>
+<p><b>LE JEUNE Louis — UID : ____________</b></p>
+<p>Réseaux Informatiques 1 — Chapitre 3 : La couche réseau, routage, FLSM et VLSM — 02/11/2026</p>
+<hr>
+<h3>Partie 1 — Le paquet IPv4</h3>
+<p>La couche réseau livre les paquets de la source originale à la destination finale. Le protocole <b>IP</b> est sans connexion, fait de l'acheminement « au mieux », ne dépend pas du support et n'offre <b>aucune fiabilité</b> (pas d'accusé de réception).</p>
+<p>L'IPv4 n'a que 2³² ≈ 4 milliards d'adresses, d'où la séparation entre adresses <b>publiques</b> (routées sur Internet) et <b>privées</b> (internes uniquement) : <b>10.0.0.0/8</b>, <b>172.16.0.0/12</b> et <b>192.168.0.0/16</b>. Le <b>NAT</b>, placé sur le routeur, traduit les adresses privées en l'adresse publique donnée par le FAI. Il existe aussi le <b>loopback</b> 127.0.0.1, pour tester sa propre pile TCP/IP, et le <b>lien local</b> 169.254.x.x (APIPA), que Windows s'attribue quand il n'y a pas de serveur DHCP.</p>
+<p>Dans l'en-tête IPv4, il faut retenir : la <b>version</b> (4 ou 6), le <b>TTL</b>, décrémenté à chaque routeur (à 0, le paquet est rejeté), le <b>protocole</b> transporté (ICMP = 1, TCP = 6, UDP = 17) et les <b>@IP source et destination</b> (32 bits chacune).</p>
+<p>L'IP source est toujours unicast. L'IP de destination peut être unicast, multicast (224 à 239) ou broadcast (adresse de diffusion).</p>
+<h3>Partie 2 — Le routage</h3>
+<p>Un hôte peut s'envoyer un paquet à lui-même (loopback), l'envoyer à un hôte de son réseau (pas besoin de routeur) ou à un hôte distant : il passe alors par sa <b>passerelle par défaut</b>, c'est-à-dire « la porte » du réseau. Elle est donnée par DHCP ou configurée à la main, et crée une <b>route par défaut</b> dans la table de routage de l'hôte (<code>route print</code>).</p>
+<p>Le routeur, lui, consulte sa table (<code>show ip route</code>) qui contient trois types de routes : <b>directement connectées</b> (C), <b>distantes</b> (apprises en statique S ou en dynamique, par exemple O pour OSPF) et la <b>route par défaut 0.0.0.0/0</b>, utilisée en dernier recours. Si aucune route ne correspond et qu'il n'y a pas de route par défaut, le paquet est abandonné. Quand plusieurs routes correspondent, le routeur choisit le <b>préfixe le plus long</b> (<i>longest prefix match</i>), car c'est la plus précise.</p>
+<p>Le <b>routage statique</b> se configure à la main (<code>ip route &lt;réseau&gt; &lt;masque&gt; &lt;next hop&gt;</code>) : il est adapté aux petits réseaux, mais si un lien tombe, rien ne bascule. Le <b>routage dynamique</b> (OSPF, RIP, EIGRP…) découvre les réseaux tout seul et trouve un autre chemin en cas de panne.</p>
+<h3>Partie 3 — Le sous-réseautage</h3>
+<p>Le routeur ne transmet pas les broadcasts : chaque interface de routeur délimite donc un <b>domaine de diffusion</b>. Si ce domaine est trop grand, les broadcasts saturent le réseau. On le découpe alors en <b>sous-réseaux</b> en empruntant des bits de la partie hôte. Chaque bit emprunté double le nombre de sous-réseaux et divise le nombre d'hôtes par deux.</p>
+<p><b>Tableau à mémoriser</b> ★ (à partir d'un /24) : /25 → 2 × 126 hôtes, /26 → 4 × 62, /27 → 8 × 30, /28 → 16 × 14, /29 → 32 × 6, /30 → 64 × 2.</p>
+<p>Pour choisir le masque, il faut toujours compter <b>+2 adresses</b> (réseau et broadcast) : 15 hôtes demandent 17 adresses, donc un /27 et pas un /28.</p>
+<ul>
+<li><b>FLSM</b> (masque fixe) : on choisit un seul masque qui satisfait à la fois le nombre de sous-réseaux et le plus grand besoin en hôtes. C'est simple, mais ça <b>gaspille</b> des adresses (un lien entre routeurs n'a besoin que de 2 adresses sur 30).</li>
+<li><b>VLSM</b> (masque variable) : chaque sous-réseau reçoit le masque adapté à son besoin, <b>en commençant par le plus grand</b>. Les liens entre routeurs prennent un /30.</li>
+</ul>
+<p><i>Exercice</i> (192.168.100.0/24, VLSM) :</p>
+<table><tr><th>Service</th><th>Besoin (+2)</th><th>Préfixe</th><th>@ réseau</th><th>Plage utilisable</th><th>Broadcast</th></tr>
+<tr><td>Marketing</td><td>32</td><td>/27</td><td>.0</td><td>.1 – .30</td><td>.31</td></tr>
+<tr><td>Ingénierie</td><td>25</td><td>/27</td><td>.32</td><td>.33 – .62</td><td>.63</td></tr>
+<tr><td>Comptabilité</td><td>17</td><td>/27</td><td>.64</td><td>.65 – .94</td><td>.95</td></tr>
+<tr><td>RH</td><td>14</td><td>/28</td><td>.96</td><td>.97 – .110</td><td>.111</td></tr>
+<tr><td>SI</td><td>10</td><td>/28</td><td>.112</td><td>.113 – .126</td><td>.127</td></tr>
+</table>
+</body></html>
