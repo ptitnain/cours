@@ -10,3 +10,6 @@ réseau/supports moodle/Généralités/UID - 3A - FISA.pdf
 # Livres et datasheets sous droits d'auteur (gardés en local seulement)
 réseau/supports moodle/References/
 architecture microprocesseur/Datasheets/
+# Enregistrements et transcriptions des cours de réseau (gardés en local)
+réseau/**/*.m4a
+réseau/**/*.txt
