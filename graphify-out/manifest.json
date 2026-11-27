@@ -1,9 +1,9 @@
 {
   "CONTEXTE.md": {
-    "mtime": 1795709434.3262153,
-    "seen": 1795710021.7103965,
-    "ast_hash": "bda392edfe8e1557696a27ad7177b81a",
-    "semantic_hash": "bda392edfe8e1557696a27ad7177b81a"
+    "mtime": 1795710030.1584153,
+    "seen": 1795766508.2036347,
+    "ast_hash": "4838445546d6756354e45ead2fa86330",
+    "semantic_hash": "4838445546d6756354e45ead2fa86330"
   },
   "PAIRSE projet RSE/CONTEXTE.md": {
     "mtime": 1795709498.9574263,
@@ -42,10 +42,10 @@
     "semantic_hash": "3af834b6c97e1c57e67fc1b07297f464"
   },
   "probabilit\u00e9s et statistiques/CONTEXTE.md": {
-    "mtime": 1795709498.7060728,
-    "seen": 1795710021.7103965,
-    "ast_hash": "48f78028423542a2449d486ca6da4465",
-    "semantic_hash": "48f78028423542a2449d486ca6da4465"
+    "mtime": 1795766258.566813,
+    "seen": 1795766508.2036347,
+    "ast_hash": "baf20b201179bcf8880402c880803f03",
+    "semantic_hash": "baf20b201179bcf8880402c880803f03"
   },
   "r\u00e9seau/CONTEXTE.md": {
     "mtime": 1795709498.37624,
@@ -916,5 +916,197 @@
     "seen": 1795710021.7103965,
     "ast_hash": "edb6b88187dda38bb1cd1fd709cb37e4",
     "semantic_hash": "edb6b88187dda38bb1cd1fd709cb37e4"
+  },
+  "README.md": {
+    "mtime": 1795712032.8611004,
+    "seen": 1795766508.2036347,
+    "ast_hash": "087360efa031a47f2cb37b1bb452cec6",
+    "semantic_hash": "087360efa031a47f2cb37b1bb452cec6"
+  },
+  "bases de donn\u00e9es/relectures quiz et TP Moodle/Exercices suppl\u00e9mentaires.md": {
+    "mtime": 1795709880.742771,
+    "seen": 1795766508.2036347,
+    "ast_hash": "bcebd5a7214847c354da4e970df1f6a2",
+    "semantic_hash": "bcebd5a7214847c354da4e970df1f6a2"
+  },
+  "bases de donn\u00e9es/relectures quiz et TP Moodle/QCM-SQL.md": {
+    "mtime": 1795709880.7417715,
+    "seen": 1795766508.2036347,
+    "ast_hash": "7099183478f4e5a26b439fbb64f84838",
+    "semantic_hash": "7099183478f4e5a26b439fbb64f84838"
+  },
+  "bases de donn\u00e9es/relectures quiz et TP Moodle/Quiz Introduction aux bases de donn\u00e9es.md": {
+    "mtime": 1795709880.7407706,
+    "seen": 1795766508.2036347,
+    "ast_hash": "bfa99b4f5c33a18a15f63103dc0eb803",
+    "semantic_hash": "bfa99b4f5c33a18a15f63103dc0eb803"
+  },
+  "bases de donn\u00e9es/relectures quiz et TP Moodle/TP2.md": {
+    "mtime": 1795709880.7417715,
+    "seen": 1795766508.2036347,
+    "ast_hash": "8fbda2d5beb3725de008014c209d796a",
+    "semantic_hash": "8fbda2d5beb3725de008014c209d796a"
+  },
+  "java POO/relectures quiz et TP Moodle/Q2.2 Abstract class.md": {
+    "mtime": 1795709880.746282,
+    "seen": 1795766508.2036347,
+    "ast_hash": "784f7aa808f9c2ab3c279589fec1fa2f",
+    "semantic_hash": "784f7aa808f9c2ab3c279589fec1fa2f"
+  },
+  "java POO/relectures quiz et TP Moodle/Q2.4 Manager equals.md": {
+    "mtime": 1795709880.746282,
+    "seen": 1795766508.2036347,
+    "ast_hash": "d8ff058d09d595bbbd9d730a839394f2",
+    "semantic_hash": "d8ff058d09d595bbbd9d730a839394f2"
+  },
+  "java POO/relectures quiz et TP Moodle/Q3.1 Arrays.sort().md": {
+    "mtime": 1795709880.7473,
+    "seen": 1795766508.2036347,
+    "ast_hash": "bf32d03567788db7a1f9f9557e8aa50f",
+    "semantic_hash": "bf32d03567788db7a1f9f9557e8aa50f"
+  },
+  "java POO/relectures quiz et TP Moodle/Q3.2 Comparable Employees.md": {
+    "mtime": 1795709880.7473,
+    "seen": 1795766508.2036347,
+    "ast_hash": "8b45525751ceafb44c4126a8b1405f91",
+    "semantic_hash": "8b45525751ceafb44c4126a8b1405f91"
+  },
+  "java POO/relectures quiz et TP Moodle/Q3.3 String Comparator.md": {
+    "mtime": 1795709880.7473,
+    "seen": 1795766508.2036347,
+    "ast_hash": "ace1947d79f990d21d5f31f000be8292",
+    "semantic_hash": "ace1947d79f990d21d5f31f000be8292"
+  },
+  "java POO/relectures quiz et TP Moodle/Q3.4 Handling Checked Exceptions.md": {
+    "mtime": 1795709880.7482824,
+    "seen": 1795766508.2036347,
+    "ast_hash": "fcc6d764baf92245253c6edd9a6ba196",
+    "semantic_hash": "fcc6d764baf92245253c6edd9a6ba196"
+  },
+  "java POO/relectures quiz et TP Moodle/Q4.1 Generic Pair class (copie).md": {
+    "mtime": 1795709880.7482824,
+    "seen": 1795766508.2036347,
+    "ast_hash": "67cba9bdaf0cedb86b62c567b0a00210",
+    "semantic_hash": "67cba9bdaf0cedb86b62c567b0a00210"
+  },
+  "java POO/relectures quiz et TP Moodle/Q4.3 static generic bound with sellable.md": {
+    "mtime": 1795709880.7492821,
+    "seen": 1795766508.2036347,
+    "ast_hash": "9058594e47fdf70be48b6364e76742df",
+    "semantic_hash": "9058594e47fdf70be48b6364e76742df"
+  },
+  "java POO/relectures quiz et TP Moodle/Q4.4 static generic minMax.md": {
+    "mtime": 1795709880.7492821,
+    "seen": 1795766508.2036347,
+    "ast_hash": "80102d6801b2b304425ac1d2215450ec",
+    "semantic_hash": "80102d6801b2b304425ac1d2215450ec"
+  },
+  "java POO/relectures quiz et TP Moodle/Q4.5 Linked List API usage.md": {
+    "mtime": 1795709880.7492821,
+    "seen": 1795766508.2036347,
+    "ast_hash": "6ca0cbf193020d1ad81b314be473706c",
+    "semantic_hash": "6ca0cbf193020d1ad81b314be473706c"
+  },
+  "java POO/relectures quiz et TP Moodle/Q4.6 Map API usage.md": {
+    "mtime": 1795709880.750283,
+    "seen": 1795766508.2036347,
+    "ast_hash": "10391a053991b28e40c6f07eb59b021f",
+    "semantic_hash": "10391a053991b28e40c6f07eb59b021f"
+  },
+  "java POO/relectures quiz et TP Moodle/TD 1.md": {
+    "mtime": 1795709880.750283,
+    "seen": 1795766508.2036347,
+    "ast_hash": "969f6da178634cf3dca9ff01d9b28943",
+    "semantic_hash": "969f6da178634cf3dca9ff01d9b28943"
+  },
+  "java POO/relectures quiz et TP Moodle/TD 2.md": {
+    "mtime": 1795709880.7512946,
+    "seen": 1795766508.2036347,
+    "ast_hash": "1288e34e55e27e0a6d18adce14bc6125",
+    "semantic_hash": "1288e34e55e27e0a6d18adce14bc6125"
+  },
+  "java POO/relectures quiz et TP Moodle/TD 3.md": {
+    "mtime": 1795709880.7512946,
+    "seen": 1795766508.2036347,
+    "ast_hash": "5ddb0e51c89cb42c9d86e5ae2af210e6",
+    "semantic_hash": "5ddb0e51c89cb42c9d86e5ae2af210e6"
+  },
+  "java POO/relectures quiz et TP Moodle/TP 1 - Bonus Question.md": {
+    "mtime": 1795709880.7532854,
+    "seen": 1795766508.2036347,
+    "ast_hash": "220922b1e509c544fc2f19d2b801f1e6",
+    "semantic_hash": "220922b1e509c544fc2f19d2b801f1e6"
+  },
+  "java POO/relectures quiz et TP Moodle/TP 1 - Question 1.md": {
+    "mtime": 1795709880.7522843,
+    "seen": 1795766508.2036347,
+    "ast_hash": "7b4a7b9779d22a8891c48f644ffbd55c",
+    "semantic_hash": "7b4a7b9779d22a8891c48f644ffbd55c"
+  },
+  "java POO/relectures quiz et TP Moodle/TP 1 - Questions 2-10.md": {
+    "mtime": 1795709880.7532854,
+    "seen": 1795766508.2036347,
+    "ast_hash": "ad801b6c868a6a3b0120e9d64d22a994",
+    "semantic_hash": "ad801b6c868a6a3b0120e9d64d22a994"
+  },
+  "syst\u00e8mes d'exploitation/relectures quiz et TP Moodle/Syst\u00e8mes d'Exploitation - TP1.md": {
+    "mtime": 1795709880.742771,
+    "seen": 1795766508.2036347,
+    "ast_hash": "b63d891fb2244a14277f4094d28d95f8",
+    "semantic_hash": "b63d891fb2244a14277f4094d28d95f8"
+  },
+  "syst\u00e8mes d'exploitation/relectures quiz et TP Moodle/Syst\u00e8mes d'Exploitation - TP2.md": {
+    "mtime": 1795709880.7442772,
+    "seen": 1795766508.2036347,
+    "ast_hash": "a7a4a357ea1c1c2f48d27e55df009214",
+    "semantic_hash": "a7a4a357ea1c1c2f48d27e55df009214"
+  },
+  "syst\u00e8mes d'exploitation/relectures quiz et TP Moodle/Syst\u00e8mes d'Exploitation - TP3.md": {
+    "mtime": 1795709880.7452853,
+    "seen": 1795766508.2036347,
+    "ast_hash": "3abb7434687efc63233cc4e8b3a33c84",
+    "semantic_hash": "3abb7434687efc63233cc4e8b3a33c84"
+  },
+  "probabilit\u00e9s et statistiques/Cours de Probabili\u00e9s/Chp4-Lois_discr\u00e8tes.pdf": {
+    "mtime": 1795766108.8520722,
+    "seen": 1795766508.2036347,
+    "ast_hash": "b039ac7a544406a22d554b3905f1a138",
+    "semantic_hash": "b039ac7a544406a22d554b3905f1a138"
+  },
+  "probabilit\u00e9s et statistiques/Cours de Probabili\u00e9s/TD1et2-V_A-25-26.pdf": {
+    "mtime": 1795766120.3267384,
+    "seen": 1795766508.2036347,
+    "ast_hash": "5c65b7b04448bcc0746d77e87d3ad074",
+    "semantic_hash": "5c65b7b04448bcc0746d77e87d3ad074"
+  },
+  "probabilit\u00e9s et statistiques/Fiches de r\u00e9vision/fiche-revision-mesure-v3.pdf": {
+    "mtime": 1795766130.6168404,
+    "seen": 1795766508.2036347,
+    "ast_hash": "14480354cd40a44a6549576dbd212317",
+    "semantic_hash": "14480354cd40a44a6549576dbd212317"
+  },
+  "probabilit\u00e9s et statistiques/Statistiques Descriptives/Cours-R-Proba-Stat.pdf": {
+    "mtime": 1795766128.1347165,
+    "seen": 1795766508.2036347,
+    "ast_hash": "4f7dfa6f342db20bfb98e67aa7f91a76",
+    "semantic_hash": "4f7dfa6f342db20bfb98e67aa7f91a76"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/Chp5-Lois-Continues.pdf": {
+    "mtime": 1795766123.0738442,
+    "seen": 1795766508.2036347,
+    "ast_hash": "e4478b5def009f6b8806ad39750ef7f8",
+    "semantic_hash": "e4478b5def009f6b8806ad39750ef7f8"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/Cours-Variables_al\u00e9atoires_r\u00e9elles_\u00e0_densit\u00e9.pdf": {
+    "mtime": 1795766116.100987,
+    "seen": 1795766508.2036347,
+    "ast_hash": "eccc629696f4d5e45c5d8385111deac2",
+    "semantic_hash": "eccc629696f4d5e45c5d8385111deac2"
+  },
+  "probabilit\u00e9s et statistiques/Variables al\u00e9atoires continues/TD6-Lois_Continues.pdf": {
+    "mtime": 1795766125.5402355,
+    "seen": 1795766508.2036347,
+    "ast_hash": "c03f39b67ab97c723516376997dcbb9b",
+    "semantic_hash": "c03f39b67ab97c723516376997dcbb9b"
   }
 }
