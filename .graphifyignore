@@ -6,7 +6,7 @@
 *.py
 *.jpg
 *.svg
-*.docx
+# (docx inclus)
 # Gros livres / datasheets de référence (des milliers de pages)
 réseau/supports moodle/References/
 architecture microprocesseur/Datasheets/

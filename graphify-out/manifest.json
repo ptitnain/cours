@@ -18,10 +18,10 @@
     "semantic_hash": "b087721df9db16d86f0258bcb205ed62"
   },
   "anglais/CONTEXTE.md": {
-    "mtime": 1795709498.893873,
-    "seen": 1795710021.7103965,
-    "ast_hash": "99fa40fdc5fbbad3135faeac5cafe457",
-    "semantic_hash": "99fa40fdc5fbbad3135faeac5cafe457"
+    "mtime": 1795766864.2465649,
+    "seen": 1795767001.946191,
+    "ast_hash": "420655fa13cbb92328af3910e1cb2324",
+    "semantic_hash": "420655fa13cbb92328af3910e1cb2324"
   },
   "architecture microprocesseur/CONTEXTE.md": {
     "mtime": 1795709498.546909,
@@ -1108,5 +1108,11 @@
     "seen": 1795766508.2036347,
     "ast_hash": "c03f39b67ab97c723516376997dcbb9b",
     "semantic_hash": "c03f39b67ab97c723516376997dcbb9b"
+  },
+  "graphify-out/converted/Chapitre 4_3a8738a1.md": {
+    "mtime": 1795766865.9082136,
+    "seen": 1795767001.946191,
+    "ast_hash": "1a2052c8a5cce1b58bc292d03e365679",
+    "semantic_hash": "1a2052c8a5cce1b58bc292d03e365679"
   }
 }

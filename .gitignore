@@ -13,3 +13,12 @@ architecture microprocesseur/Datasheets/
 # Enregistrements et transcriptions des cours de réseau (gardés en local)
 réseau/**/*.m4a
 réseau/**/*.txt
+# Restes à trier / fichiers temporaires
+anglais/anglais/
+*.blend1
+graphify-out/converted/
+# Anglais : fichiers Word/ODT et projets perso gardés en local (demande de l'étudiant)
+anglais/**/*.docx
+anglais/**/*.odt
+anglais/Anglais renforcé (groupe C)/
+anglais/Projet de groupe - Nyxara (Build your world)/
